@@ -1,0 +1,2178 @@
+{
+ "part": "U3",
+ "n": 100,
+ "instructions": "How to answer: \"Which boxes would the project have to change?\"\n\nYou will see only the BEFORE photo of a place; the result of the project is not shown. The brief states one objective.\n\nSelect every box that the project would have to change to achieve that objective. Do not select boxes that this objective does not require changing, even if they could be improved in other ways. Select at least one box.\n\nExample (made up):\nObjective: \"Give pedestrians more shade while walking.\"\nBox 1 (a wide sidewalk with no trees): needs trees or awnings. Select it.\nBox 2 (the upper floors of a building): no change needed for shade at street level. Do not select it.\nBox 3 (the road surface): not needed for shade. Do not select it.\nAnswer: Box 1.",
+ "batches": [
+  [
+   "h001",
+   "h009",
+   "h010",
+   "h012",
+   "h014",
+   "h020",
+   "h022",
+   "h023",
+   "h024",
+   "h025",
+   "h029",
+   "h030",
+   "h031",
+   "h032",
+   "h035",
+   "h038",
+   "h039",
+   "h047",
+   "h049",
+   "h060",
+   "h061",
+   "h066",
+   "h067",
+   "h070",
+   "h072"
+  ],
+  [
+   "h073",
+   "h074",
+   "h076",
+   "h077",
+   "h086",
+   "h090",
+   "h092",
+   "h093",
+   "h098",
+   "h099",
+   "h100",
+   "h103",
+   "h105",
+   "h109",
+   "h111",
+   "h115",
+   "h117",
+   "h119",
+   "h122",
+   "h125",
+   "h127",
+   "h129",
+   "h131",
+   "h132",
+   "h134"
+  ],
+  [
+   "h135",
+   "h139",
+   "h140",
+   "h141",
+   "h150",
+   "h152",
+   "h157",
+   "h160",
+   "h161",
+   "h162",
+   "h163",
+   "h164",
+   "h170",
+   "h171",
+   "h172",
+   "h174",
+   "h179",
+   "h183",
+   "h192",
+   "h193",
+   "h197",
+   "h199",
+   "h200",
+   "h209",
+   "h212"
+  ],
+  [
+   "h216",
+   "h218",
+   "h220",
+   "h221",
+   "h224",
+   "h229",
+   "h233",
+   "h234",
+   "h237",
+   "h238",
+   "h241",
+   "h244",
+   "h248",
+   "h249",
+   "h254",
+   "h261",
+   "h263",
+   "h265",
+   "h267",
+   "h278",
+   "h281",
+   "h284",
+   "h285",
+   "h295",
+   "h299"
+  ]
+ ],
+ "questions": [
+  {
+   "id": "h001",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h001_before.jpg",
+   "after": null,
+   "text": "Project brief:\nA residential roadside frontage seen obliquely from the street toward a green-and-cream Japanese house and its planted garden. Objective for this question: Preserve garden beauty while making its surface easier to maintain.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "A residential roadside frontage seen obliquely from the street toward a green-and-cream Japanese house and its planted garden. Objective for this question: Preserve garden beauty while making its surface easier to maintain.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1184,
+    864
+   ]
+  },
+  {
+   "id": "h009",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h009_before.jpg",
+   "after": null,
+   "text": "Project brief:\nAt the junction by the Cavill Avenue tram stop on Surfers Paradise Boulevard, looking along the road past the white arched corner shop and opposite tall retail buildings. Objective for this question: Make light-rail stations and their approaches pedestrian-friendly and accessible.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "At the junction by the Cavill Avenue tram stop on Surfers Paradise Boulevard, looking along the road past the white arched corner shop and opposite tall retail buildings. Objective for this question: Make light-rail stations and their approaches pedestrian-friendly and accessible.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h010",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h010_before.jpg",
+   "after": null,
+   "text": "Project brief:\nAt the station-side forecourt of Awara-Onsen Station in Fukui, looking toward the adjacent shopping-street junction. Objective for this question: Improve station roads and pedestrian connections for the Shinkansen-era northern Fukui gateway.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "At the station-side forecourt of Awara-Onsen Station in Fukui, looking toward the adjacent shopping-street junction. Objective for this question: Improve station roads and pedestrian connections for the Shinkansen-era northern Fukui gateway.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1344,
+    768
+   ]
+  },
+  {
+   "id": "h012",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h012_before.jpg",
+   "after": null,
+   "text": "Project brief:\nView east across the Yulgok-ro intersection toward the former Ewha Dongdaemun Hospital compound at the Seoul fortress wall in Jongno, Seoul. Objective for this question: Re-create the historic landscape and restore Dongdaemun’s historical and cultural environment.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "View east across the Yulgok-ro intersection toward the former Ewha Dongdaemun Hospital compound at the Seoul fortress wall in Jongno, Seoul. Objective for this question: Re-create the historic landscape and restore Dongdaemun’s historical and cultural environment.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h014",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h014_before.jpg",
+   "after": null,
+   "text": "Project brief:\nAn elevated oblique view across a river-edge platform, lower promenade and tree-lined upper lane at Qingdao's Yanjiashan Xiangli waterfront. Objective for this question: Connect neighbourhood life with waterfront walking and recreation spaces.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "An elevated oblique view across a river-edge platform, lower promenade and tree-lined upper lane at Qingdao's Yanjiashan Xiangli waterfront. Objective for this question: Connect neighbourhood life with waterfront walking and recreation spaces.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    905,
+    604
+   ]
+  },
+  {
+   "id": "h020",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h020_before.jpg",
+   "after": null,
+   "text": "Project brief:\nA street-level view along Lougheed Highway in Burnaby, with residential towers and a parking/frontage site to the left and an elevated guideway to the right. Objective for this question: Improve boulevard safety, access, appearance, and greening.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "A street-level view along Lougheed Highway in Burnaby, with residential towers and a parking/frontage site to the left and an elevated guideway to the right. Objective for this question: Improve boulevard safety, access, appearance, and greening.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h022",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h022_before.jpg",
+   "after": null,
+   "text": "Project brief:\nView east along Union Street in Pyrmont from above the carriageway, with cafés on the left and shops beneath mature trees on the right. Objective for this question: Improve the comfort and amenity of the pedestrian streetscape.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "View east along Union Street in Pyrmont from above the carriageway, with cafés on the left and shops beneath mature trees on the right. Objective for this question: Improve the comfort and amenity of the pedestrian streetscape.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h023",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h023_before.jpg",
+   "after": null,
+   "text": "Project brief:\nA street-level view east along Boulevard De Maisonneuve Ouest beside Place Norman-Bethune and the Concordia campus in central Montréal. Objective for this question: Offer a high-quality public place for relaxation.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "A street-level view east along Boulevard De Maisonneuve Ouest beside Place Norman-Bethune and the Concordia campus in central Montréal. Objective for this question: Offer a high-quality public place for relaxation.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h024",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h024_before.jpg",
+   "after": null,
+   "text": "Project brief:\nA ground-level view across the eastern portion of Ohlone Park in Berkeley, looking from the park's paved edge toward the Ohlone Journey mural and play area. Objective for this question: Make the mural accessible for close-up viewing.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "A ground-level view across the eastern portion of Ohlone Park in Berkeley, looking from the park's paved edge toward the Ohlone Journey mural and play area. Objective for this question: Make the mural accessible for close-up viewing.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1152,
+    864
+   ]
+  },
+  {
+   "id": "h025",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h025_before.jpg",
+   "after": null,
+   "text": "Project brief:\nLooking along Hindley Street West from the roadway, with the older red-brick building on the left and a campus forecourt on the right. Objective for this question: Slow vehicles and make pedestrian crossings safer.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "Looking along Hindley Street West from the roadway, with the older red-brick building on the left and a campus forecourt on the right. Objective for this question: Slow vehicles and make pedestrian crossings safer.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h029",
+   "boxes": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h029_before.jpg",
+   "after": null,
+   "text": "Project brief:\nA historic-centre street and open square in Mexico City, photographed from the road corner, with trees and older colonial and early-20th-century facades ahead and to the sides. Objective for this question: Improve the quality of public space.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "A historic-centre street and open square in Mexico City, photographed from the road corner, with trees and older colonial and early-20th-century facades ahead and to the sides. Objective for this question: Improve the quality of public space.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h030",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h030_before.jpg",
+   "after": null,
+   "text": "Project brief:\nThe camera faces down Jellicoe Street beside the old concrete cement silos at Wynyard Quarter’s western waterfront. Objective for this question: Treat stormwater with planted green infrastructure.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "The camera faces down Jellicoe Street beside the old concrete cement silos at Wynyard Quarter’s western waterfront. Objective for this question: Treat stormwater with planted green infrastructure.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h031",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h031_before.jpg",
+   "after": null,
+   "text": "Project brief:\nA view along a tree-lined Viaduct street toward the signalised junction beside the glass-fronted corner building. Objective for this question: Complete the city centre cycle loop by connecting existing cycle routes.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "A view along a tree-lined Viaduct street toward the signalised junction beside the glass-fronted corner building. Objective for this question: Complete the city centre cycle loop by connecting existing cycle routes.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1152,
+    864
+   ]
+  },
+  {
+   "id": "h032",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h032_before.jpg",
+   "after": null,
+   "text": "Project brief:\nAn elevated diagonal view looks down onto the road junction of 28th Avenue and Hoyt Street, with storefronts on the right and a central roadway island. Objective for this question: Make the central crossing refuge accessible to people using mobility devices.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "An elevated diagonal view looks down onto the road junction of 28th Avenue and Hoyt Street, with storefronts on the right and a central roadway island. Objective for this question: Make the central crossing refuge accessible to people using mobility devices.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1056,
+    960
+   ]
+  },
+  {
+   "id": "h035",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h035_before.jpg",
+   "after": null,
+   "text": "Project brief:\nAn earth dam at Dolejšák pond in Prague-Zličín, viewed along its crest with the pond to the left. Objective for this question: Make walking along the dam more comfortable.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "An earth dam at Dolejšák pond in Prague-Zličín, viewed along its crest with the pond to the left. Objective for this question: Make walking along the dam more comfortable.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1088,
+    704
+   ]
+  },
+  {
+   "id": "h038",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h038_before.jpg",
+   "after": null,
+   "text": "Project brief:\nStreet-level view looking toward the next intersection along Akashimachi-suji, amid commercial frontages and established street trees in central Kobe. Objective for this question: Mitigate the urban heat-island phenomenon.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "Street-level view looking toward the next intersection along Akashimachi-suji, amid commercial frontages and established street trees in central Kobe. Objective for this question: Mitigate the urban heat-island phenomenon.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h039",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h039_before.jpg",
+   "after": null,
+   "text": "Project brief:\nThe camera looks along Swanston Street from its central tram corridor, with the State Library lawn to the left and a row of shops to the right. Objective for this question: Improve access for cyclists along Swanston Street.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "The camera looks along Swanston Street from its central tram corridor, with the State Library lawn to the left and a row of shops to the right. Objective for this question: Improve access for cyclists along Swanston Street.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h047",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h047_before.jpg",
+   "after": null,
+   "text": "Project brief:\nA broad view across the Zhongshan Road and Kaixuan 4th Road junction in Kaohsiung, from the near roadway toward the station-side crossing. Objective for this question: Make the bridge easy to reach for older and mobility-impaired people.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "A broad view across the Zhongshan Road and Kaixuan 4th Road junction in Kaohsiung, from the near roadway toward the station-side crossing. Objective for this question: Make the bridge easy to reach for older and mobility-impaired people.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h049",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h049_before.jpg",
+   "after": null,
+   "text": "Project brief:\nA street-level view along Suwoncheon near Maegyo–Jidonggyo in Suwon, with shopfronts on both banks and a large commercial block to the right. Objective for this question: Restore Suwoncheon ecology and return the stream to citizens.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "A street-level view along Suwoncheon near Maegyo–Jidonggyo in Suwon, with shopfronts on both banks and a large commercial block to the right. Objective for this question: Restore Suwoncheon ecology and return the stream to citizens.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h060",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h060_before.jpg",
+   "after": null,
+   "text": "Project brief:\nA residential garden approach in Liangwu, Shanghai, seen from the brick path at its foot, looking toward a low glazed pavilion at the end of the path. Objective for this question: Make the neglected garden more visually interesting and attractive to insects and birds.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "A residential garden approach in Liangwu, Shanghai, seen from the brick path at its foot, looking toward a low glazed pavilion at the end of the path. Objective for this question: Make the neglected garden more visually interesting and attractive to insects and birds.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1056,
+    800
+   ]
+  },
+  {
+   "id": "h061",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h061_before.jpg",
+   "after": null,
+   "text": "Project brief:\nStreet-level view looking along Edo Sakura-dori in Nihonbashimuromachi, with restaurants on the left and a redevelopment frontage on the right. Objective for this question: Make surrounding streets pleasant to walk and lively with activity.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "Street-level view looking along Edo Sakura-dori in Nihonbashimuromachi, with restaurants on the left and a redevelopment frontage on the right. Objective for this question: Make surrounding streets pleasant to walk and lively with activity.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1632,
+    768
+   ]
+  },
+  {
+   "id": "h066",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h066_before.jpg",
+   "after": null,
+   "text": "Project brief:\nA view across a road toward a city block in Taichung's New Municipal Centre, framed by buildings. Objective for this question: Provide parkland for recreation, cultural performances and festivals.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "A view across a road toward a city block in Taichung's New Municipal Centre, framed by buildings. Objective for this question: Provide parkland for recreation, cultural performances and festivals.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h067",
+   "boxes": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h067_before.jpg",
+   "after": null,
+   "text": "Project brief:\nStreet-level view from the roadway at the north entrance of the Levant Fair precinct beside Plumer Square in Tel Aviv: shopfronts ahead on the left, a restaurant with umbrellas on the right. Objective for this question: Link the peninsula entrances to city streets, prioritizing pedestrians and cyclists.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "Street-level view from the roadway at the north entrance of the Levant Fair precinct beside Plumer Square in Tel Aviv: shopfronts ahead on the left, a restaurant with umbrellas on the right. Objective for this question: Link the peninsula entrances to city streets, prioritizing pedestrians and cyclists.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h070",
+   "boxes": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h070_before.jpg",
+   "after": null,
+   "text": "Project brief:\nA downtown two-lane street in Kelowna (Queensway) seen from the carriageway, with parked cars on the right, shopfronts beyond them and a junction with a traffic island ahead. Objective for this question: Make the exchange universally accessible, for example with tactile warning strips.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "A downtown two-lane street in Kelowna (Queensway) seen from the carriageway, with parked cars on the right, shopfronts beyond them and a junction with a traffic island ahead. Objective for this question: Make the exchange universally accessible, for example with tactile warning strips.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h072",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h072_before.jpg",
+   "after": null,
+   "text": "Project brief:\nLooking along Little Hay Street from its Sussex Street entrance, between an arcaded hotel facade on the left and low retail buildings on the right in Haymarket, Sydney. Objective for this question: Give pedestrians more walking space and priority over vehicles on Little Hay Street.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "Looking along Little Hay Street from its Sussex Street entrance, between an arcaded hotel facade on the left and low retail buildings on the right in Haymarket, Sydney. Objective for this question: Give pedestrians more walking space and priority over vehicles on Little Hay Street.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h073",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h073_before.jpg",
+   "after": null,
+   "text": "Project brief:\nLooking north along E Street toward the next signalized intersection, beside Town Square Park in downtown Anchorage. Objective for this question: Create a dynamic, inviting and stimulating pedestrian streetscape.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "Looking north along E Street toward the next signalized intersection, beside Town Square Park in downtown Anchorage. Objective for this question: Create a dynamic, inviting and stimulating pedestrian streetscape.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h074",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h074_before.jpg",
+   "after": null,
+   "text": "Project brief:\nStreet-level view looking along lower Cuba Street between the Manners and Wakefield Street intersections, with the ornate heritage facade to the left and shop fronts to the right. Objective for this question: Maintain a continuous pedestrian connection from Cuba Mall toward Civic Square.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "Street-level view looking along lower Cuba Street between the Manners and Wakefield Street intersections, with the ornate heritage facade to the left and shop fronts to the right. Objective for this question: Maintain a continuous pedestrian connection from Cuba Mall toward Civic Square.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h076",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h076_before.jpg",
+   "after": null,
+   "text": "Project brief:\nCamera across Wynkoop Street facing the historic Denver Union Station frontage and its forecourt. Objective for this question: Relate the plaza to the historic station and Lower Downtown district.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "Camera across Wynkoop Street facing the historic Denver Union Station frontage and its forecourt. Objective for this question: Relate the plaza to the historic station and Lower Downtown district.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h077",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h077_before.jpg",
+   "after": null,
+   "text": "Project brief:\nA coastal street (John Parade) with a red-brick block of flats at a side-street junction on the left and the beach and sea on the right, seen from the middle of the carriageway. Objective for this question: Resolve traffic and pedestrian conflict at the Watkins Street intersection.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "A coastal street (John Parade) with a red-brick block of flats at a side-street junction on the left and the beach and sea on the right, seen from the middle of the carriageway. Objective for this question: Resolve traffic and pedestrian conflict at the Watkins Street intersection.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h086",
+   "boxes": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h086_before.jpg",
+   "after": null,
+   "text": "Project brief:\nA view along the curved street beside the Groupe Scolaire Annexe boundary wall, looking toward the school approach from the road edge. Objective for this question: Separate children from traffic with safe pathways.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "A view along the curved street beside the Groupe Scolaire Annexe boundary wall, looking toward the school approach from the road edge. Objective for this question: Separate children from traffic with safe pathways.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1024,
+    1024
+   ]
+  },
+  {
+   "id": "h090",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h090_before.jpg",
+   "after": null,
+   "text": "Project brief:\nLooking along Fitzmaurice Street toward the brick courthouse clock tower from the street carriageway near the Sturt Street junction in Wagga Wagga. Objective for this question: Improve the visual quality and appearance of Fitzmaurice Street.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "Looking along Fitzmaurice Street toward the brick courthouse clock tower from the street carriageway near the Sturt Street junction in Wagga Wagga. Objective for this question: Improve the visual quality and appearance of Fitzmaurice Street.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h092",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h092_before.jpg",
+   "after": null,
+   "text": "Project brief:\nView along Saharon Street from the carriageway, facing a roadside verge and grove on the right and apartment blocks on the left. Objective for this question: Improve traffic safety and pedestrian safety.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "View along Saharon Street from the carriageway, facing a roadside verge and grove on the right and apartment blocks on the left. Objective for this question: Improve traffic safety and pedestrian safety.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h093",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h093_before.jpg",
+   "after": null,
+   "text": "Project brief:\nA one-way street (Carrera 50, Palace) in central Medellin at a junction with a side street, photographed from the kerbside lane looking along the carriageway past shops and parked vehicles. Objective for this question: Extend the Ciudad del Rio cycle route into the city centre.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "A one-way street (Carrera 50, Palace) in central Medellin at a junction with a side street, photographed from the kerbside lane looking along the carriageway past shops and parked vehicles. Objective for this question: Extend the Ciudad del Rio cycle route into the city centre.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1632,
+    768
+   ]
+  },
+  {
+   "id": "h098",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h098_before.jpg",
+   "after": null,
+   "text": "Project brief:\nStreet-level view eastward along Via Paolo Sarpi, Milan, with historic masonry frontages and a narrow corridor between them. Objective for this question: Restore Via Paolo Sarpi’s identity and make its limited-traffic streetscape safer and more orderly.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "Street-level view eastward along Via Paolo Sarpi, Milan, with historic masonry frontages and a narrow corridor between them. Objective for this question: Restore Via Paolo Sarpi’s identity and make its limited-traffic streetscape safer and more orderly.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h099",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h099_before.jpg",
+   "after": null,
+   "text": "Project brief:\nA downtown street corner in San Marcos, Texas, where a side road meets a parking lot behind a low wall; the photo is taken from the roadway. Objective for this question: Implement Low Impact Development principles.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "A downtown street corner in San Marcos, Texas, where a side road meets a parking lot behind a low wall; the photo is taken from the roadway. Objective for this question: Implement Low Impact Development principles.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h100",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h100_before.jpg",
+   "after": null,
+   "text": "Project brief:\nStreet-level view north along Kent Avenue at North 8th Street in Brooklyn, with a fenced park to the west and apartments to the east. Objective for this question: Reduce speeding by narrowing and organizing the vehicle travel space.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "Street-level view north along Kent Avenue at North 8th Street in Brooklyn, with a fenced park to the west and apartments to the east. Objective for this question: Reduce speeding by narrowing and organizing the vehicle travel space.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1632,
+    768
+   ]
+  },
+  {
+   "id": "h103",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h103_before.jpg",
+   "after": null,
+   "text": "Project brief:\nStreet-level view along Avenida Ayacucho toward the intersection with Carrera 49 (Junín) in Medellín, with shop-lined corners on both sides. Objective for this question: Keep pedestrians clear of passing trams by defining their safe boundary.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "Street-level view along Avenida Ayacucho toward the intersection with Carrera 49 (Junín) in Medellín, with shop-lined corners on both sides. Objective for this question: Keep pedestrians clear of passing trams by defining their safe boundary.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1632,
+    768
+   ]
+  },
+  {
+   "id": "h105",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h105_before.jpg",
+   "after": null,
+   "text": "Project brief:\nView from the roadway across the 1100 block frontage toward Emery Barnes Park in Downtown South, Vancouver, with apartment towers behind it. Objective for this question: Provide Downtown South residents a green refuge for passive recreation.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "View from the roadway across the 1100 block frontage toward Emery Barnes Park in Downtown South, Vancouver, with apartment towers behind it. Objective for this question: Provide Downtown South residents a green refuge for passive recreation.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h109",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h109_before.jpg",
+   "after": null,
+   "text": "Project brief:\nA downward view along Argyle Place at the Dalgety Road junction in Millers Point, with the camera standing in the roadway and looking toward a brick warehouse and a tall masonry stack. Objective for this question: Slow traffic along the corridor.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "A downward view along Argyle Place at the Dalgety Road junction in Millers Point, with the camera standing in the roadway and looking toward a brick warehouse and a tall masonry stack. Objective for this question: Slow traffic along the corridor.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1632,
+    768
+   ]
+  },
+  {
+   "id": "h111",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h111_before.jpg",
+   "after": null,
+   "text": "Project brief:\nView from Szent István körút into Ditrói Mór Street, beside Budapest’s Vígszínház theatre, with the theatre on the left and café frontage on the right. Objective for this question: Give pedestrians room to rest, meet and hold outdoor cultural events.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "View from Szent István körút into Ditrói Mór Street, beside Budapest’s Vígszínház theatre, with the theatre on the left and café frontage on the right. Objective for this question: Give pedestrians room to rest, meet and hold outdoor cultural events.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h115",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h115_before.jpg",
+   "after": null,
+   "text": "Project brief:\nA view looking along Sankyūbashi-suji through a small junction, with historic masonry facades on the left and a modern office frontage on the right. Objective for this question: Create a pleasant, spacious pedestrian environment along the street.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "A view looking along Sankyūbashi-suji through a small junction, with historic masonry facades on the left and a modern office frontage on the right. Objective for this question: Create a pleasant, spacious pedestrian environment along the street.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h117",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h117_before.jpg",
+   "after": null,
+   "text": "Project brief:\nAn eastward-looking view along Avenida Paulista at the Brigadeiro Metro stop, with two directional carriageways and central traffic islands. Objective for this question: Improve comfort and safety for people riding bicycles.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "An eastward-looking view along Avenida Paulista at the Brigadeiro Metro stop, with two directional carriageways and central traffic islands. Objective for this question: Improve comfort and safety for people riding bicycles.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h119",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h119_before.jpg",
+   "after": null,
+   "text": "Project brief:\nThe camera looks across Herzl Street toward the kiosk and pedestrian entrance of Rothschild Boulevard, with the French Institute building on the right in Tel Aviv. Objective for this question: Make an open public square where diverse users can sit, meet and gather.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "The camera looks across Herzl Street toward the kiosk and pedestrian entrance of Rothschild Boulevard, with the French Institute building on the right in Tel Aviv. Objective for this question: Make an open public square where diverse users can sit, meet and gather.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h122",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h122_before.jpg",
+   "after": null,
+   "text": "Project brief:\nA street-level view looking along Długa Street in Kraków, with shopfront buildings on both sides and the camera near its corner with Basztowa Street. Objective for this question: Support walking and bicycle movement on Długa Street.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "A street-level view looking along Długa Street in Kraków, with shopfront buildings on both sides and the camera near its corner with Basztowa Street. Objective for this question: Support walking and bicycle movement on Długa Street.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1632,
+    768
+   ]
+  },
+  {
+   "id": "h125",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h125_before.jpg",
+   "after": null,
+   "text": "Project brief:\nTop-down aerial view of a Yangtze riverbank inlet, with a wooded bank on the left and a canal and road along the right edge. Objective for this question: Restore the ecology of the river and its banks.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "Top-down aerial view of a Yangtze riverbank inlet, with a wooded bank on the left and a canal and road along the right edge. Objective for this question: Restore the ecology of the river and its banks.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    960,
+    1056
+   ]
+  },
+  {
+   "id": "h127",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h127_before.jpg",
+   "after": null,
+   "text": "Project brief:\nA street-level view looking north along L Street SE through the former school-bus lot between park blocks at Washington Canal Park, Washington, DC. Objective for this question: Protect pedestrians and slow vehicular traffic.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "A street-level view looking north along L Street SE through the former school-bus lot between park blocks at Washington Canal Park, Washington, DC. Objective for this question: Protect pedestrians and slow vehicular traffic.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h129",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h129_before.jpg",
+   "after": null,
+   "text": "Project brief:\nLooking north up Thomas Street in Haymarket from the southern end of the plaza, with historic shopfronts on the left and a covered building frontage on the right. Objective for this question: Create an inviting pedestrian-friendly public space along Thomas Street.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "Looking north up Thomas Street in Haymarket from the southern end of the plaza, with historic shopfronts on the left and a covered building frontage on the right. Objective for this question: Create an inviting pedestrian-friendly public space along Thomas Street.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1632,
+    768
+   ]
+  },
+  {
+   "id": "h131",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h131_before.jpg",
+   "after": null,
+   "text": "Project brief:\nInside a rectangular walled school sports court, looking toward a tall ochre end building and the rear entrance gate. Objective for this question: Restore a safe school playground for children's play and collective activities.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "Inside a rectangular walled school sports court, looking toward a tall ochre end building and the rear entrance gate. Objective for this question: Restore a safe school playground for children's play and collective activities.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h132",
+   "boxes": [
+    1,
+    2,
+    3
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h132_before.jpg",
+   "after": null,
+   "text": "Project brief:\nA street corner in Townsville city centre, seen at street level: a café frontage with a curved awning on the left, and an open paved and grassed square on the right. Objective for this question: Connect Flinders Street to the waterfront.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "A street corner in Townsville city centre, seen at street level: a café frontage with a curved awning on the left, and an open paved and grassed square on the right. Objective for this question: Connect Flinders Street to the waterfront.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h134",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h134_before.jpg",
+   "after": null,
+   "text": "Project brief:\nA view from the southwest edge of the Chłodna Street square toward a long residential-and-shop frontage in Wola, Warsaw. Objective for this question: Calm and organise traffic circulation along the street.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "A view from the southwest edge of the Chłodna Street square toward a long residential-and-shop frontage in Wola, Warsaw. Objective for this question: Calm and organise traffic circulation along the street.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1472,
+    672
+   ]
+  },
+  {
+   "id": "h135",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h135_before.jpg",
+   "after": null,
+   "text": "Project brief:\nA street-level view looks southwest across southern Moravské náměstí toward St. Thomas Church at left and the Governor’s Palace ahead, with tram tracks at right. Objective for this question: Restore a coherent, dignified civic square before the historic church and courthouse.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "A street-level view looks southwest across southern Moravské náměstí toward St. Thomas Church at left and the Governor’s Palace ahead, with tram tracks at right. Objective for this question: Restore a coherent, dignified civic square before the historic church and courthouse.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h139",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h139_before.jpg",
+   "after": null,
+   "text": "Project brief:\nOblique view along Xinyi Road Section 4 from the side-street corner beside a 7-Eleven in Taipei. Objective for this question: Make Xinyi Road a demonstration tree-lined boulevard.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "Oblique view along Xinyi Road Section 4 from the side-street corner beside a 7-Eleven in Taipei. Objective for this question: Make Xinyi Road a demonstration tree-lined boulevard.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h140",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h140_before.jpg",
+   "after": null,
+   "text": "Project brief:\nThe camera looks from the parking area across a lawn toward the brick wings of the Wayne-Finger Lakes BOCES conference center. Objective for this question: Connect users to the renovated meeting and training facility.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "The camera looks from the parking area across a lawn toward the brick wings of the Wayne-Finger Lakes BOCES conference center. Objective for this question: Connect users to the renovated meeting and training facility.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1056,
+    704
+   ]
+  },
+  {
+   "id": "h141",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h141_before.jpg",
+   "after": null,
+   "text": "Project brief:\nStreet-level view along Avenida Henrique Valadares, with a colonnaded office frontage to the left and a tall building to the right. Objective for this question: Improve quality of life for neighborhood residents and visitors.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "Street-level view along Avenida Henrique Valadares, with a colonnaded office frontage to the left and a tall building to the right. Objective for this question: Improve quality of life for neighborhood residents and visitors.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h150",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h150_before.jpg",
+   "after": null,
+   "text": "Project brief:\nAn aerial view along a river corridor in a dense city, looking north, with an elevated expressway on the right and apartment blocks on the left. Objective for this question: Let the river self-renew and rebuild its ecosystem by restoring its natural course.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "An aerial view along a river corridor in a dense city, looking north, with an elevated expressway on the right and apartment blocks on the left. Objective for this question: Let the river self-renew and rebuild its ecosystem by restoring its natural course.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1280,
+    736
+   ]
+  },
+  {
+   "id": "h152",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h152_before.jpg",
+   "after": null,
+   "text": "Project brief:\nA street-level view of Odinsplatsen in Gothenburg's Stampen district, facing the red-brick apartment block and the white commercial frontage across the square. Objective for this question: Provide breathing space for people and nature.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "A street-level view of Odinsplatsen in Gothenburg's Stampen district, facing the red-brick apartment block and the white commercial frontage across the square. Objective for this question: Provide breathing space for people and nature.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h157",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h157_before.jpg",
+   "after": null,
+   "text": "Project brief:\nStreet-level view facing uphill from the junction at the base of Parc du Platon in Trois-Rivières, with a brick building on the left and trees on the right. Objective for this question: Create a clear, welcoming gateway into the historic district.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "Street-level view facing uphill from the junction at the base of Parc du Platon in Trois-Rivières, with a brick building on the left and trees on the right. Objective for this question: Create a clear, welcoming gateway into the historic district.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h160",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h160_before.jpg",
+   "after": null,
+   "text": "Project brief:\nA wide concrete staircase flight on a hillside in Morro do Saboo, Santos, between a rough stone wall on the left and house walls on the right; the camera stands at the foot of the flight and looks up it. Objective for this question: Make the staircases safer for residents to use.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "A wide concrete staircase flight on a hillside in Morro do Saboo, Santos, between a rough stone wall on the left and house walls on the right; the camera stands at the foot of the flight and looks up it. Objective for this question: Make the staircases safer for residents to use.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    576,
+    768
+   ]
+  },
+  {
+   "id": "h161",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h161_before.jpg",
+   "after": null,
+   "text": "Project brief:\nStreet-level view looking down Agias Sofias Street between continuous mid-rise shopfront buildings in Thessaloniki. Objective for this question: Enable unobstructed everyday pedestrian passage and strolling along the street.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "Street-level view looking down Agias Sofias Street between continuous mid-rise shopfront buildings in Thessaloniki. Objective for this question: Enable unobstructed everyday pedestrian passage and strolling along the street.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h162",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h162_before.jpg",
+   "after": null,
+   "text": "Project brief:\nAn elevated camera looks along Fillmore Plaza between retail buildings from its foreground street intersection in Denver. Objective for this question: Beautify the district and conserve water through landscaping.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "An elevated camera looks along Fillmore Plaza between retail buildings from its foreground street intersection in Denver. Objective for this question: Beautify the district and conserve water through landscaping.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1216,
+    832
+   ]
+  },
+  {
+   "id": "h163",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h163_before.jpg",
+   "after": null,
+   "text": "Project brief:\nA vertical aerial view of a shoreline park beside a road, with a mown lawn, a small shelter, a boardwalk and a tidal inlet with saltmarsh. Objective for this question: Restore regular tidal flow to the former saltmarsh so it can recover.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "A vertical aerial view of a shoreline park beside a road, with a mown lawn, a small shelter, a boardwalk and a tidal inlet with saltmarsh. Objective for this question: Restore regular tidal flow to the former saltmarsh so it can recover.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1312,
+    768
+   ]
+  },
+  {
+   "id": "h164",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h164_before.jpg",
+   "after": null,
+   "text": "Project brief:\nStreet-level view looking toward the entrance-side garden, ground-floor sliding window, and front steps of a two-story Japanese residence. Objective for this question: Create a calm outdoor area sheltered from street views and activity.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "Street-level view looking toward the entrance-side garden, ground-floor sliding window, and front steps of a two-story Japanese residence. Objective for this question: Create a calm outdoor area sheltered from street views and activity.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1088,
+    928
+   ]
+  },
+  {
+   "id": "h170",
+   "boxes": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h170_before.jpg",
+   "after": null,
+   "text": "Project brief:\nA street-level view from the park side of Lakeview Boulevard faces the residential frontage and pale picket fence opposite Baisley Pond Park. Objective for this question: Reduce flooding and improve street conditions around the east side of Baisley Pond Park.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "A street-level view from the park side of Lakeview Boulevard faces the residential frontage and pale picket fence opposite Baisley Pond Park. Objective for this question: Reduce flooding and improve street conditions around the east side of Baisley Pond Park.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1536,
+    1103
+   ]
+  },
+  {
+   "id": "h171",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h171_before.jpg",
+   "after": null,
+   "text": "Project brief:\nKensington Street in Chippendale, Sydney, viewed along the street between historic buildings. Objective for this question: Reactivate heritage buildings for contemporary commercial and cultural uses.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "Kensington Street in Chippendale, Sydney, viewed along the street between historic buildings. Objective for this question: Reactivate heritage buildings for contemporary commercial and cultural uses.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1632,
+    768
+   ]
+  },
+  {
+   "id": "h172",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h172_before.jpg",
+   "after": null,
+   "text": "Project brief:\nThe camera faces a broad street junction from the near pedestrian corner of Praça Afonso Arinos on Avenida Álvares Cabral in central Belo Horizonte. Objective for this question: Establish bicycles as healthy, non-polluting public transportation.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "The camera faces a broad street junction from the near pedestrian corner of Praça Afonso Arinos on Avenida Álvares Cabral in central Belo Horizonte. Objective for this question: Establish bicycles as healthy, non-polluting public transportation.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h174",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h174_before.jpg",
+   "after": null,
+   "text": "Project brief:\nA forward-facing street view from Central Avenue looking east across its junction with 5th Street in downtown St. Petersburg, Florida. Objective for this question: Improve major and gateway intersections.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "A forward-facing street view from Central Avenue looking east across its junction with 5th Street in downtown St. Petersburg, Florida. Objective for this question: Improve major and gateway intersections.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1632,
+    768
+   ]
+  },
+  {
+   "id": "h179",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h179_before.jpg",
+   "after": null,
+   "text": "Project brief:\nLooking west along Rue de la Commune Est in Vieux-Montréal, with the waterfront verge to the left of the street and residential buildings to the right. Objective for this question: Make the public space into an urban cooling oasis.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "Looking west along Rue de la Commune Est in Vieux-Montréal, with the waterfront verge to the left of the street and residential buildings to the right. Objective for this question: Make the public space into an urban cooling oasis.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h183",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h183_before.jpg",
+   "after": null,
+   "text": "Project brief:\nA brick-paved school forecourt in front of a broad flight of steps and a four-storey brick school building, seen from the open paving looking toward the steps. Objective for this question: Reduce summer heat in the street and homes at Reggestraat and Roerplein.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "A brick-paved school forecourt in front of a broad flight of steps and a four-storey brick school building, seen from the open paving looking toward the steps. Objective for this question: Reduce summer heat in the street and homes at Reggestraat and Roerplein.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1184,
+    992
+   ]
+  },
+  {
+   "id": "h192",
+   "boxes": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h192_before.jpg",
+   "after": null,
+   "text": "Project brief:\nA street-level view looks uphill from the lower approach of West 215th Step Street between Park Terrace East and Broadway in Inwood. Objective for this question: Help users orient themselves and track their progress along the step street.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "A street-level view looks uphill from the lower approach of West 215th Step Street between Park Terrace East and Broadway in Inwood. Objective for this question: Help users orient themselves and track their progress along the step street.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    800,
+    512
+   ]
+  },
+  {
+   "id": "h193",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h193_before.jpg",
+   "after": null,
+   "text": "Project brief:\nA street-level view from the Leary Way NE intersection looking east along Cleveland Street toward downtown shops and buildings in Redmond, Washington. Objective for this question: Create Cleveland Street as a distinctive downtown Main Street promenade.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "A street-level view from the Leary Way NE intersection looking east along Cleveland Street toward downtown shops and buildings in Redmond, Washington. Objective for this question: Create Cleveland Street as a distinctive downtown Main Street promenade.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h197",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h197_before.jpg",
+   "after": null,
+   "text": "Project brief:\nMcCrae Way immediately behind New Lynn Library, seen looking along the street toward the station-side public space with the library promenade on the left and shops on the right. Objective for this question: Bring new commercial and healthcare activity to the Merchant Quarter.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "McCrae Way immediately behind New Lynn Library, seen looking along the street toward the station-side public space with the library promenade on the left and shops on the right. Objective for this question: Bring new commercial and healthcare activity to the Merchant Quarter.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h199",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h199_before.jpg",
+   "after": null,
+   "text": "Project brief:\nAn oblique aerial view up the Nervion estuary in Bilbao, taken from above the road bridge in the foreground with the river bending away between the two banks. Objective for this question: Bring residential and economic activity to former industrial land.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "An oblique aerial view up the Nervion estuary in Bilbao, taken from above the road bridge in the foreground with the river bending away between the two banks. Objective for this question: Bring residential and economic activity to former industrial land.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    640,
+    768
+   ]
+  },
+  {
+   "id": "h200",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h200_before.jpg",
+   "after": null,
+   "text": "Project brief:\nA residential stretch of 34 Avenue S.W. in Calgary seen eastbound from the roadway, with apartment blocks on both sides and a sidewalk on the right. Objective for this question: Create a design that is uniquely Marda Loop and reflects its identity.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "A residential stretch of 34 Avenue S.W. in Calgary seen eastbound from the roadway, with apartment blocks on both sides and a sidewalk on the right. Objective for this question: Create a design that is uniquely Marda Loop and reflects its identity.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1248,
+    832
+   ]
+  },
+  {
+   "id": "h209",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h209_before.jpg",
+   "after": null,
+   "text": "Project brief:\nThe camera looks downhill along Old Fulton Street toward Fulton Ferry Landing, with the historic white ferry building on the right and the East River ahead. Objective for this question: Provide a welcoming public gathering place at the Fulton Ferry gateway.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "The camera looks downhill along Old Fulton Street toward Fulton Ferry Landing, with the historic white ferry building on the right and the East River ahead. Objective for this question: Provide a welcoming public gathering place at the Fulton Ferry gateway.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h212",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h212_before.jpg",
+   "after": null,
+   "text": "Project brief:\nA view down Calle Libertad from the shopfront side past the cathedral frontage toward Chihuahua’s historic-centre square. Objective for this question: Rehabilitate, maintain and conserve public spaces and green areas.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "A view down Calle Libertad from the shopfront side past the cathedral frontage toward Chihuahua’s historic-centre square. Objective for this question: Rehabilitate, maintain and conserve public spaces and green areas.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h216",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h216_before.jpg",
+   "after": null,
+   "text": "Project brief:\nAn elevated view across the tidal marsh of the Cooper River toward a formerly paved waterfront strip and the adjoining Charleston buildings, with docks beyond the south end. Objective for this question: Create an attractive green riverfront welcoming residents and visitors.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "An elevated view across the tidal marsh of the Cooper River toward a formerly paved waterfront strip and the adjoining Charleston buildings, with docks beyond the south end. Objective for this question: Create an attractive green riverfront welcoming residents and visitors.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1248,
+    832
+   ]
+  },
+  {
+   "id": "h218",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h218_before.jpg",
+   "after": null,
+   "text": "Project brief:\nA coastal access road and pedestrian frontage at the foot of a vegetated hillside beside Xiziwan waterfront, viewed looking along the approach to the bay. Objective for this question: Connect the main Xiziwan waterfront visitor attractions.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "A coastal access road and pedestrian frontage at the foot of a vegetated hillside beside Xiziwan waterfront, viewed looking along the approach to the bay. Objective for this question: Connect the main Xiziwan waterfront visitor attractions.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h220",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h220_before.jpg",
+   "after": null,
+   "text": "Project brief:\nA camera on a stairway landing looks downhill toward a street in Jardim Nakamura, São Paulo. Objective for this question: Make the staircase a place where local people can enjoy art.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "A camera on a stairway landing looks downhill toward a street in Jardim Nakamura, São Paulo. Objective for this question: Make the staircase a place where local people can enjoy art.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1216,
+    832
+   ]
+  },
+  {
+   "id": "h221",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h221_before.jpg",
+   "after": null,
+   "text": "Project brief:\nLooking east along Queens Quay West beside the Waterfront Neighbourhood Centre, with streetcar tracks to the left and a fenced outdoor court to the right. Objective for this question: Connect the existing waterfront trails into a continuous route.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "Looking east along Queens Quay West beside the Waterfront Neighbourhood Centre, with streetcar tracks to the left and a fenced outdoor court to the right. Objective for this question: Connect the existing waterfront trails into a continuous route.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1632,
+    768
+   ]
+  },
+  {
+   "id": "h224",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h224_before.jpg",
+   "after": null,
+   "text": "Project brief:\nA steep hillside pedestrian route between houses in a Bogota neighbourhood, photographed from the foot of the route looking uphill. Objective for this question: Give residents comfortable, safe access up the steep hillside on foot.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "A steep hillside pedestrian route between houses in a Bogota neighbourhood, photographed from the foot of the route looking uphill. Objective for this question: Give residents comfortable, safe access up the steep hillside on foot.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    768,
+    576
+   ]
+  },
+  {
+   "id": "h229",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h229_before.jpg",
+   "after": null,
+   "text": "Project brief:\nTree-lined roadside pedestrian frontage beside Linear Garden along the main BRT corridor in Pimple Saudagar, viewed looking ahead from the garden-edge footway. Objective for this question: Organise vehicles into designated on-street parking areas.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "Tree-lined roadside pedestrian frontage beside Linear Garden along the main BRT corridor in Pimple Saudagar, viewed looking ahead from the garden-edge footway. Objective for this question: Organise vehicles into designated on-street parking areas.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1568,
+    800
+   ]
+  },
+  {
+   "id": "h233",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h233_before.jpg",
+   "after": null,
+   "text": "Project brief:\nElevated view down the shop-lined station-access road, looking under a curving pedestrian footbridge toward Thane railway station. Objective for this question: Keep motor vehicles out of dedicated pedestrian space along the station approach.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "Elevated view down the shop-lined station-access road, looking under a curving pedestrian footbridge toward Thane railway station. Objective for this question: Keep motor vehicles out of dedicated pedestrian space along the station approach.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1568,
+    800
+   ]
+  },
+  {
+   "id": "h234",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h234_before.jpg",
+   "after": null,
+   "text": "Project brief:\nLooking along Swanson Street toward St Patrick’s Square in central Auckland, with the cathedral and nearby office buildings behind the public space. Objective for this question: Create a safe, comfortable and enjoyable public space day and night.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "Looking along Swanson Street toward St Patrick’s Square in central Auckland, with the cathedral and nearby office buildings behind the public space. Objective for this question: Create a safe, comfortable and enjoyable public space day and night.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h237",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h237_before.jpg",
+   "after": null,
+   "text": "Project brief:\nStreet-level view of the Burrard Street and Cornwall Avenue junction, with vehicle lanes to the left and the park frontage to the right. Objective for this question: Increase usable park space near the bridge approach.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "Street-level view of the Burrard Street and Cornwall Avenue junction, with vehicle lanes to the left and the park frontage to the right. Objective for this question: Increase usable park space near the bridge approach.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h238",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h238_before.jpg",
+   "after": null,
+   "text": "Project brief:\nAn open neighbourhood sports court in Manizales, Colombia, seen from a stepped concrete bank on one side looking across the playing surface toward the goal and backboard end. Objective for this question: Promote sport, recreation and social cohesion through the renovated court.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "An open neighbourhood sports court in Manizales, Colombia, seen from a stepped concrete bank on one side looking across the playing surface toward the goal and backboard end. Objective for this question: Promote sport, recreation and social cohesion through the renovated court.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1152,
+    864
+   ]
+  },
+  {
+   "id": "h241",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h241_before.jpg",
+   "after": null,
+   "text": "Project brief:\nAn open neighbourhood lot in Prados del Sol del Desierto, viewed from beside the large grey building toward the kerbed path along the right edge. Objective for this question: Foster peace, coexistence and neighbourly interaction through shared park spaces.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "An open neighbourhood lot in Prados del Sol del Desierto, viewed from beside the large grey building toward the kerbed path along the right edge. Objective for this question: Foster peace, coexistence and neighbourly interaction through shared park spaces.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1248,
+    832
+   ]
+  },
+  {
+   "id": "h244",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h244_before.jpg",
+   "after": null,
+   "text": "Project brief:\nThe camera looks along the midstream Kai Tak River channel toward a low bridge, with apartment blocks and a roadside corridor on the right. Objective for this question: Support river habitats and aquatic biodiversity.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "The camera looks along the midstream Kai Tak River channel toward a low bridge, with apartment blocks and a roadside corridor on the right. Objective for this question: Support river habitats and aquatic biodiversity.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1216,
+    832
+   ]
+  },
+  {
+   "id": "h248",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h248_before.jpg",
+   "after": null,
+   "text": "Project brief:\nStreet-level camera on the south side of Broadway/Fifth Avenue looking north toward Madison Square Park and surrounding Manhattan buildings. Objective for this question: Improve traffic and pedestrian movement patterns at the junction.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "Street-level camera on the south side of Broadway/Fifth Avenue looking north toward Madison Square Park and surrounding Manhattan buildings. Objective for this question: Improve traffic and pedestrian movement patterns at the junction.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h249",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h249_before.jpg",
+   "after": null,
+   "text": "Project brief:\nSheinkin Street in Tel Aviv, viewed along the carriageway past a shop-side juice stand towards the far intersection. Objective for this question: Give Sheinkin Street a renewed and updated appearance.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "Sheinkin Street in Tel Aviv, viewed along the carriageway past a shop-side juice stand towards the far intersection. Objective for this question: Give Sheinkin Street a renewed and updated appearance.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h254",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h254_before.jpg",
+   "after": null,
+   "text": "Project brief:\nStreet junction at the edge of Karantina Public Park in Beirut, viewed from the open roadway toward the park fence and lattice pylon. Objective for this question: Slow traffic and regulate vehicle movement.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "Street junction at the edge of Karantina Public Park in Beirut, viewed from the open roadway toward the park fence and lattice pylon. Objective for this question: Slow traffic and regulate vehicle movement.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1152,
+    864
+   ]
+  },
+  {
+   "id": "h261",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h261_before.jpg",
+   "after": null,
+   "text": "Project brief:\nAt Cheapside Park in downtown Lexington, the camera looks toward a stone civic building on the right, with commercial frontage along the left side of the street. Objective for this question: Support outdoor dining, entertainment and cultural activities in the central public space.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "At Cheapside Park in downtown Lexington, the camera looks toward a stone civic building on the right, with commercial frontage along the left side of the street. Objective for this question: Support outdoor dining, entertainment and cultural activities in the central public space.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h263",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h263_before.jpg",
+   "after": null,
+   "text": "Project brief:\nLorne Street outside Auckland Central City Library, viewed along the street toward the far intersection. Objective for this question: Improve pedestrian use in front of the central library.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "Lorne Street outside Auckland Central City Library, viewed along the street toward the far intersection. Objective for this question: Improve pedestrian use in front of the central library.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h265",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h265_before.jpg",
+   "after": null,
+   "text": "Project brief:\nView looking along Dock Street toward the former Larkin Plaza parking area in downtown Yonkers, with shops at left and the street continuing at right. Objective for this question: Restore the buried Saw Mill River to a natural open-air condition.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "View looking along Dock Street toward the former Larkin Plaza parking area in downtown Yonkers, with shops at left and the street continuing at right. Objective for this question: Restore the buried Saw Mill River to a natural open-air condition.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h267",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h267_before.jpg",
+   "after": null,
+   "text": "Project brief:\nStreet-level view looking uphill across the junction of Shlomtsiyon HaMalka, Ben Sira and Shlomo HaMelech streets toward a rounded commercial building. Objective for this question: Create a continuous, high-quality pedestrian public-space link between downtown, Mamilla and Old City.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "Street-level view looking uphill across the junction of Shlomtsiyon HaMalka, Ben Sira and Shlomo HaMelech streets toward a rounded commercial building. Objective for this question: Create a continuous, high-quality pedestrian public-space link between downtown, Mamilla and Old City.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h278",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h278_before.jpg",
+   "after": null,
+   "text": "Project brief:\nView east along Allen Street in Waterloo from the Botany Road end, with a brick warehouse and sidewalk on the left and the two-way vehicle carriageway toward an intersection. Objective for this question: Provide high-quality, safe bicycle facilities connecting regional routes and local destinations.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "View east along Allen Street in Waterloo from the Botany Road end, with a brick warehouse and sidewalk on the left and the two-way vehicle carriageway toward an intersection. Objective for this question: Provide high-quality, safe bicycle facilities connecting regional routes and local destinations.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1632,
+    768
+   ]
+  },
+  {
+   "id": "h281",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h281_before.jpg",
+   "after": null,
+   "text": "Project brief:\nThe camera looks down Wyckoff Avenue toward Gates Avenue beside the Myrtle-Wyckoff subway station entrance and the elevated rail support. Objective for this question: Create a central neighborhood public gathering place at the retail and transit hub.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "The camera looks down Wyckoff Avenue toward Gates Avenue beside the Myrtle-Wyckoff subway station entrance and the elevated rail support. Objective for this question: Create a central neighborhood public gathering place at the retail and transit hub.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1344,
+    768
+   ]
+  },
+  {
+   "id": "h284",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h284_before.jpg",
+   "after": null,
+   "text": "Project brief:\nA small paved square at the southern end of a Hamburg shopping street, seen from the square's edge toward an office building, with a bronze statue on a plinth at the right. Objective for this question: Create a planted square with seating that invites people to linger.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "A small paved square at the southern end of a Hamburg shopping street, seen from the square's edge toward an office building, with a bronze statue on a plinth at the right. Objective for this question: Create a planted square with seating that invites people to linger.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    620,
+    697
+   ]
+  },
+  {
+   "id": "h285",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h285_before.jpg",
+   "after": null,
+   "text": "Project brief:\nColquhoun Square in Helensburgh, viewed from Colquhoun Street toward the church and the far side of the square. Objective for this question: Enhance pedestrian movement and public use of the square.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "Colquhoun Square in Helensburgh, viewed from Colquhoun Street toward the church and the far side of the square. Objective for this question: Enhance pedestrian movement and public use of the square.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1632,
+    768
+   ]
+  },
+  {
+   "id": "h295",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h295_before.jpg",
+   "after": null,
+   "text": "Project brief:\nA downtown river edge below an arcaded street viaduct, seen from a bridge looking along the bank toward a stone bridgehouse. Objective for this question: Provide comfortable places to sit and view the river.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "A downtown river edge below an arcaded street viaduct, seen from a bridge looking along the bank toward a stone bridgehouse. Objective for this question: Provide comfortable places to sit and view the river.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    992,
+    640
+   ]
+  },
+  {
+   "id": "h299",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h299_before.jpg",
+   "after": null,
+   "text": "Project brief:\nA walled family cemetery plot in Cairo, seen from open sandy ground facing a small prayer-room building and a domed pavilion on open arches. Objective for this question: Remove informal structures and waste to restore the graveyard to its original design.\n\nThe image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "brief": "A walled family cemetery plot in Cairo, seen from open sandy ground facing a small prayer-room building and a domed pavilion on open arches. Objective for this question: Remove informal structures and waste to restore the graveyard to its original design.",
+   "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply.",
+   "before_size": [
+    1248,
+    832
+   ]
+  }
+ ]
+}

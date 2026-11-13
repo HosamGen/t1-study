@@ -1,0 +1,193 @@
+{
+ "_source": "Sample questions from the worked-examples page (Track 1 worked examples), images examples/ex_*.jpg. Rectangles are pixel x,y,w,h in the 1056x800 images.",
+ "U1": {
+  "before": "examples/ex_u1_before.jpg",
+  "after": "examples/ex_u1_after.jpg",
+  "before_size": [
+   1056,
+   800
+  ],
+  "after_size": [
+   1056,
+   800
+  ],
+  "boxes": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "rects": {
+   "1": [
+    420,
+    441,
+    636,
+    289
+   ],
+   "2": [
+    929,
+    333,
+    127,
+    92
+   ],
+   "3": [
+    0,
+    560,
+    410,
+    84
+   ],
+   "4": [
+    0,
+    121,
+    381,
+    392
+   ]
+  },
+  "brief": "A residential lane viewed toward its bend, with a tiled boundary wall along the left side and the road beyond it. Separate pedestrian and vehicle movement on this lane.",
+  "answer": [
+   1,
+   3
+  ],
+  "why": {
+   "1": "Changed: a yellow fence now runs along the road. It keeps walkers apart from cars, so it serves the priority. Select.",
+   "2": "Not changed (same gate in both photos). Do not select.",
+   "3": "Changed: the road edge is now painted blue as a walking strip. It gives walkers their own lane, so it serves the priority. Select.",
+   "4": "Changed (the wall was re-tiled), but repairing the wall does not separate walkers from cars. A change that serves another purpose does not count. Do not select."
+  },
+  "rule": "Select a box only if it changed AND the change serves the priority in the brief. A box that changed for another reason (box 4) is a trap. 'None' is a valid answer when no box qualifies.",
+  "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply."
+ },
+ "U2": {
+  "before": "examples/ex_u2_before.jpg",
+  "after": "examples/ex_u2_after.jpg",
+  "before_size": [
+   1056,
+   800
+  ],
+  "after_size": [
+   1056,
+   800
+  ],
+  "boxes": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "rects": {
+   "1": [
+    929,
+    333,
+    127,
+    92
+   ],
+   "2": [
+    420,
+    441,
+    636,
+    289
+   ],
+   "3": [
+    0,
+    560,
+    410,
+    84
+   ],
+   "4": [
+    0,
+    121,
+    381,
+    392
+   ]
+  },
+  "brief": "A residential lane viewed toward its bend, with a tiled boundary wall along the left side and the road beyond it.",
+  "options": [
+   {
+    "value": "A",
+    "label": "A. No change here."
+   },
+   {
+    "value": "B",
+    "label": "B. Not a documented objective."
+   },
+   {
+    "value": "C",
+    "label": "C. Repair the worn boundary wall and improve its quality and overall appearance."
+   },
+   {
+    "value": "D",
+    "label": "D. Separate pedestrian and vehicle movement to cut congestion and conflicts on the lane."
+   },
+   {
+    "value": "E",
+    "label": "E. Give residents a public resting space on the lane."
+   }
+  ],
+  "answer": {
+   "1": "A",
+   "2": "D",
+   "3": "D",
+   "4": "C"
+  },
+  "why": {
+   "1": "Same gate in both photos: 'No change here'.",
+   "2": "New fence between the walkers' side and the cars: separating pedestrians and vehicles.",
+   "3": "New painted walking strip along the edge: separating pedestrians and vehicles.",
+   "4": "The worn tiles were replaced: repairing the wall."
+  },
+  "rule": "Every box gets exactly one letter. Letters can repeat (D is used twice) and some can stay unused (B, E). Use 'No change here' for an unchanged box and 'Not a documented objective' for a change that serves none of the listed objectives.",
+  "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Assign each marked region to the objective its change serves. Use 'No change here' for a region that did not change, and 'Not a documented objective' for a change that serves none of the listed objectives. A letter may be used more than once, and some letters may be unused."
+ },
+ "U3": {
+  "before": "examples/ex_u3_before.jpg",
+  "after": null,
+  "before_size": [
+   1056,
+   800
+  ],
+  "boxes": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "rects": {
+   "1": [
+    420,
+    441,
+    636,
+    289
+   ],
+   "2": [
+    929,
+    333,
+    127,
+    92
+   ],
+   "3": [
+    0,
+    560,
+    410,
+    84
+   ],
+   "4": [
+    0,
+    121,
+    381,
+    392
+   ]
+  },
+  "brief": "A residential lane viewed toward its bend, with a tiled boundary wall along the left side and the road beyond it. Objective for this question: Separate pedestrian and vehicle movement to cut congestion and conflicts on the lane.",
+  "answer": [
+   1,
+   3
+  ],
+  "why": {
+   "1": "The carriageway is where walkers and cars mix; a barrier or line must go here. Select.",
+   "2": "The distant gate has nothing to do with this objective. Do not select.",
+   "3": "The road edge along the wall is where a walking space can be marked out. Select.",
+   "4": "The wall is worn, but fixing it does not separate walkers from cars (that is a different objective). Do not select."
+  },
+  "prompt": "The image shows the site before the project, with numbered boxes.\nThe photo shows the site BEFORE the project; the result is not shown. Each numbered box marks a part of the site. Which marked regions would the project have to change to achieve the objective stated in the brief? Regions that this objective does not require changing must not be selected. Select all that apply."
+ }
+}

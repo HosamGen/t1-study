@@ -1,0 +1,2553 @@
+{
+ "part": "U1",
+ "n": 100,
+ "instructions": "How to answer: \"Which boxes show a change made for the stated priority?\"\n\nYou will see two photos of the same place: BEFORE the project and AFTER it. The same numbered boxes are drawn on both photos and mark the same part of the scene (the photos may be slightly shifted). The brief describes the place and states one priority of the project.\n\nSelect every box that changed between the two photos AND whose change serves that priority. Do not select a box that did not change, or whose change serves something else. If no box qualifies, select \"None of the boxes\".\n\nExample (made up):\nPriority: \"Make the street greener.\"\nBox 1 (the sidewalk): new trees were planted. Select it.\nBox 2 (the road): it was repaved, which does not make the street greener. Do not select it.\nBox 3 (a building): it looks the same. Do not select it.\nAnswer: Box 1.",
+ "batches": [
+  [
+   "h003",
+   "h005",
+   "h008",
+   "h011",
+   "h017",
+   "h018",
+   "h026",
+   "h027",
+   "h034",
+   "h036",
+   "h037",
+   "h040",
+   "h041",
+   "h042",
+   "h043",
+   "h045",
+   "h046",
+   "h048",
+   "h050",
+   "h052",
+   "h054",
+   "h062",
+   "h064",
+   "h065",
+   "h068"
+  ],
+  [
+   "h071",
+   "h075",
+   "h079",
+   "h080",
+   "h081",
+   "h083",
+   "h085",
+   "h087",
+   "h088",
+   "h089",
+   "h091",
+   "h097",
+   "h107",
+   "h108",
+   "h110",
+   "h112",
+   "h113",
+   "h114",
+   "h116",
+   "h120",
+   "h123",
+   "h130",
+   "h133",
+   "h145",
+   "h147"
+  ],
+  [
+   "h148",
+   "h151",
+   "h153",
+   "h154",
+   "h155",
+   "h158",
+   "h159",
+   "h165",
+   "h167",
+   "h168",
+   "h169",
+   "h180",
+   "h181",
+   "h184",
+   "h185",
+   "h187",
+   "h189",
+   "h203",
+   "h206",
+   "h207",
+   "h210",
+   "h211",
+   "h213",
+   "h214",
+   "h219"
+  ],
+  [
+   "h225",
+   "h226",
+   "h227",
+   "h236",
+   "h243",
+   "h245",
+   "h246",
+   "h258",
+   "h259",
+   "h264",
+   "h268",
+   "h271",
+   "h272",
+   "h273",
+   "h275",
+   "h279",
+   "h280",
+   "h283",
+   "h286",
+   "h289",
+   "h291",
+   "h292",
+   "h293",
+   "h297",
+   "h300"
+  ]
+ ],
+ "questions": [
+  {
+   "id": "h003",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h003_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h003_after.jpg",
+   "text": "Project brief:\nA central Turin street approaches the Giuseppe Mazzini monument at the Via dei Mille and Via Andrea Doria junction, viewed along the street toward the landmark building. Recover more usable pedestrian space while enhancing the monument and valued urban setting\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "A central Turin street approaches the Giuseppe Mazzini monument at the Via dei Mille and Via Andrea Doria junction, viewed along the street toward the landmark building. Recover more usable pedestrian space while enhancing the monument and valued urban setting",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1504,
+    672
+   ],
+   "after_size": [
+    1504,
+    672
+   ]
+  },
+  {
+   "id": "h005",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h005_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h005_after.jpg",
+   "text": "Project brief:\nAt the street corner outside William Nelson Park in Hastings, the camera faces diagonally across the former open parcel toward the park and buildings beyond. Provide green public park space for picnics and relaxation.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "At the street corner outside William Nelson Park in Hastings, the camera faces diagonally across the former open parcel toward the park and buildings beyond. Provide green public park space for picnics and relaxation.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ],
+   "after_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h008",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h008_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h008_after.jpg",
+   "text": "Project brief:\nA view across a small paved residential street corner beside a hipped-roof red-brick house, looking toward the existing street tree and opposite kerb. Help the neighbourhood cope with summer heat and heavy rainfall.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "A view across a small paved residential street corner beside a hipped-roof red-brick house, looking toward the existing street tree and opposite kerb. Help the neighbourhood cope with summer heat and heavy rainfall.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1024,
+    992
+   ],
+   "after_size": [
+    1024,
+    992
+   ]
+  },
+  {
+   "id": "h011",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h011_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h011_after.jpg",
+   "text": "Project brief:\nLooking inward from Vitkin Street along a residential passage in the Aliyah neighbourhood of Kfar Saba, with homes and property boundary walls on either side. Improve the green, garden-like setting experienced by promenade users.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "Looking inward from Vitkin Street along a residential passage in the Aliyah neighbourhood of Kfar Saba, with homes and property boundary walls on either side. Improve the green, garden-like setting experienced by promenade users.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1504,
+    704
+   ],
+   "after_size": [
+    1504,
+    704
+   ]
+  },
+  {
+   "id": "h017",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h017_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h017_after.jpg",
+   "text": "Project brief:\nA narrow commercial street in central Mogi das Cruzes, seen looking along Rua Padre João from near its right-hand shopfronts. Prioritize pedestrian movement in the central area.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "A narrow commercial street in central Mogi das Cruzes, seen looking along Rua Padre João from near its right-hand shopfronts. Prioritize pedestrian movement in the central area.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ],
+   "after_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h018",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h018_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h018_after.jpg",
+   "text": "Project brief:\nExterior view of the Radha Krishna Temple at the Patan Darbar World Heritage Site, looking toward its multi-tiered pagoda roof and open lower porch from the square. Conserve and refurbish the historic Malla-period temple.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "Exterior view of the Radha Krishna Temple at the Patan Darbar World Heritage Site, looking toward its multi-tiered pagoda roof and open lower porch from the square. Conserve and refurbish the historic Malla-period temple.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1536,
+    1088
+   ],
+   "after_size": [
+    1536,
+    1088
+   ]
+  },
+  {
+   "id": "h026",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h026_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h026_after.jpg",
+   "text": "Project brief:\nStreet-level view looking along Avenida Alfred Agache past the front fence of Museu Histórico Nacional near Praça Marechal Âncora in Rio de Janeiro. Give people on foot more priority along this street.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "Street-level view looking along Avenida Alfred Agache past the front fence of Museu Histórico Nacional near Praça Marechal Âncora in Rio de Janeiro. Give people on foot more priority along this street.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1632,
+    768
+   ],
+   "after_size": [
+    1632,
+    768
+   ]
+  },
+  {
+   "id": "h027",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h027_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h027_after.jpg",
+   "text": "Project brief:\nA street-facing view towards a residential building’s arched entrance, with a stone-paved approach and planting strips on either side. Give the entrance a coherent modern appearance while retaining its stone and brick character.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "A street-facing view towards a residential building’s arched entrance, with a stone-paved approach and planting strips on either side. Give the entrance a coherent modern appearance while retaining its stone and brick character.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    768,
+    512
+   ],
+   "after_size": [
+    768,
+    512
+   ]
+  },
+  {
+   "id": "h034",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h034_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h034_after.jpg",
+   "text": "Project brief:\nOblique aerial view from the southwest across the Fendong sewage treatment plant, with open treatment basins, clarifiers, and service buildings. Improve staff vehicle access and circulation within the treatment plant.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "Oblique aerial view from the southwest across the Fendong sewage treatment plant, with open treatment basins, clarifiers, and service buildings. Improve staff vehicle access and circulation within the treatment plant.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1312,
+    768
+   ],
+   "after_size": [
+    1312,
+    768
+   ]
+  },
+  {
+   "id": "h036",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h036_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h036_after.jpg",
+   "text": "Project brief:\nLooking along the curved foreshore road at Judges Bay in Parnell, with the sheltered water immediately on the right. Enable people to physically reach and travel along the waterfront\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "Looking along the curved foreshore road at Judges Bay in Parnell, with the sheltered water immediately on the right. Enable people to physically reach and travel along the waterfront",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ],
+   "after_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h037",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h037_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h037_after.jpg",
+   "text": "Project brief:\nA small residential park gravel playground in Sapporo, viewed obliquely from its front grassy edge toward the houses and perimeter fence. Provide complementary play facilities for young children unavailable in the nearby larger park.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "A small residential park gravel playground in Sapporo, viewed obliquely from its front grassy edge toward the houses and perimeter fence. Provide complementary play facilities for young children unavailable in the nearby larger park.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1184,
+    864
+   ],
+   "after_size": [
+    1184,
+    864
+   ]
+  },
+  {
+   "id": "h040",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h040_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h040_after.jpg",
+   "text": "Project brief:\nAt a road intersection beside the Donghu LOHAS Park site in Neihu, the camera looks forward along the left street with building fronts to the right. Improve residents' access to the creek and ecological greenery in the neighbourhood.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "At a road intersection beside the Donghu LOHAS Park site in Neihu, the camera looks forward along the left street with building fronts to the right. Improve residents' access to the creek and ecological greenery in the neighbourhood.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ],
+   "after_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h041",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h041_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h041_after.jpg",
+   "text": "Project brief:\nThe camera stands inside the Jean Racine schoolyard, facing the low white school building across the open yard. Make the schoolyard cooler and greener, and make movement between its spaces easier.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "The camera stands inside the Jean Racine schoolyard, facing the low white school building across the open yard. Make the schoolyard cooler and greener, and make movement between its spaces easier.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    832,
+    544
+   ],
+   "after_size": [
+    832,
+    544
+   ]
+  },
+  {
+   "id": "h042",
+   "boxes": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h042_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h042_after.jpg",
+   "text": "Project brief:\nA former side street end in Chippendale, Sydney, seen from the road junction looking along the street towards a brick terrace on the right and a hoarded redevelopment site on the left. Eliminate through-traffic and provide needed public open space in Chippendale.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "A former side street end in Chippendale, Sydney, seen from the road junction looking along the street towards a brick terrace on the right and a hoarded redevelopment site on the left. Eliminate through-traffic and provide needed public open space in Chippendale.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1632,
+    768
+   ],
+   "after_size": [
+    1632,
+    768
+   ]
+  },
+  {
+   "id": "h043",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h043_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h043_after.jpg",
+   "text": "Project brief:\nA view along a below-grade urban rail corridor toward a concrete road bridge, with vegetated banks on both sides; the camera stands on the corridor floor. Improve personal security and create an attractive, welcoming green corridor.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "A view along a below-grade urban rail corridor toward a concrete road bridge, with vegetated banks on both sides; the camera stands on the corridor floor. Improve personal security and create an attractive, welcoming green corridor.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1323,
+    768
+   ],
+   "after_size": [
+    1323,
+    768
+   ]
+  },
+  {
+   "id": "h045",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h045_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h045_after.jpg",
+   "text": "Project brief:\nA view looking down Tower View Street in Sumida from the carriageway, with the school and iron perimeter fence on the left and vending machines and shop entrances on the right. Make movement on foot safer and more comfortable for visitors.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "A view looking down Tower View Street in Sumida from the carriageway, with the school and iron perimeter fence on the left and vending machines and shop entrances on the right. Make movement on foot safer and more comfortable for visitors.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ],
+   "after_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h046",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h046_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h046_after.jpg",
+   "text": "Project brief:\nStreet-level view across a road toward the County Administration Center Waterfront Park site by Pacific Highway and the San Diego bayfront. Make it easier for pedestrians to enter the waterfront park from the street.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "Street-level view across a road toward the County Administration Center Waterfront Park site by Pacific Highway and the San Diego bayfront. Make it easier for pedestrians to enter the waterfront park from the street.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ],
+   "after_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h048",
+   "boxes": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h048_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h048_after.jpg",
+   "text": "Project brief:\nA tree-lined city street with parked cars along the kerbs, a high stone wall on the left and historic buildings on the right, photographed from the carriageway near a zebra crossing. Making cycling on this street safer and better connected for people who ride bicycles\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "A tree-lined city street with parked cars along the kerbs, a high stone wall on the left and historic buildings on the right, photographed from the carriageway near a zebra crossing. Making cycling on this street safer and better connected for people who ride bicycles",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ],
+   "after_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h050",
+   "boxes": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h050_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h050_after.jpg",
+   "text": "Project brief:\nAt Zixin Bridge in Xinzhuang District, the camera faces across the bridge into the Zhonggang drainage channel, with storefronts along the left bank and a road in the foreground. Improve the river-corridor landscape and make its waterfront more welcoming to the public.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "At Zixin Bridge in Xinzhuang District, the camera faces across the bridge into the Zhonggang drainage channel, with storefronts along the left bank and a road in the foreground. Improve the river-corridor landscape and make its waterfront more welcoming to the public.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ],
+   "after_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h052",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h052_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h052_after.jpg",
+   "text": "Project brief:\nA view from the edge of Avenida Apoquindo toward an office-and-commercial frontage at a street corner in Las Condes, Santiago. Connect the avenue and park while providing an accessible public place for meeting.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "A view from the edge of Avenida Apoquindo toward an office-and-commercial frontage at a street corner in Las Condes, Santiago. Connect the avenue and park while providing an accessible public place for meeting.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ],
+   "after_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h054",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h054_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h054_after.jpg",
+   "text": "Project brief:\nEye-level view from a junction looking along a residential street in Kadoma Honmachi, Japan. Improve emergency response and evacuation access through the dense district.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "Eye-level view from a junction looking along a residential street in Kadoma Honmachi, Japan. Improve emergency response and evacuation access through the dense district.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1184,
+    864
+   ],
+   "after_size": [
+    1184,
+    864
+   ]
+  },
+  {
+   "id": "h062",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h062_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h062_after.jpg",
+   "text": "Project brief:\nThe camera looks up North Van Dorn Street toward a marked crossing, with wooded ground at left and residences and sidewalk at right. Keep people bicycling safer while travelling along the corridor.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "The camera looks up North Van Dorn Street toward a marked crossing, with wooded ground at left and residences and sidewalk at right. Keep people bicycling safer while travelling along the corridor.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1216,
+    832
+   ],
+   "after_size": [
+    1216,
+    832
+   ]
+  },
+  {
+   "id": "h064",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h064_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h064_after.jpg",
+   "text": "Project brief:\nAn elevated street-corner view of the Young Street and Davenport Street precinct in Southport, with a corner commercial building and two diverging road approaches. Make pedestrian–vehicle movements safer and lower traffic speeds.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "An elevated street-corner view of the Young Street and Davenport Street precinct in Southport, with a corner commercial building and two diverging road approaches. Make pedestrian–vehicle movements safer and lower traffic speeds.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ],
+   "after_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h065",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h065_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h065_after.jpg",
+   "text": "Project brief:\nA triangular street junction with a public plaza, seen from the Kenyon Street side: a brick corner building behind the plaza and a glass-fronted building to the right. a public space that is safer to use after dark\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "A triangular street junction with a public plaza, seen from the Kenyon Street side: a brick corner building behind the plaza and a glass-fronted building to the right. a public space that is safer to use after dark",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ],
+   "after_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h068",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h068_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h068_after.jpg",
+   "text": "Project brief:\nA paved walkway through trees beside a white-brick building and a boundary wall near the northern entrance to Warsaw Zoo, viewed toward the bend at the wall. Renew the damaged sidewalk for safer, more comfortable pedestrian passage.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "A paved walkway through trees beside a white-brick building and a boundary wall near the northern entrance to Warsaw Zoo, viewed toward the bend at the wall. Renew the damaged sidewalk for safer, more comfortable pedestrian passage.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1024,
+    672
+   ],
+   "after_size": [
+    1024,
+    672
+   ]
+  },
+  {
+   "id": "h071",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h071_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h071_after.jpg",
+   "text": "Project brief:\nA street-level oblique view looking along Batman Sokak toward a fenced former lot beside commercial buildings in Sahrayıcedid, Kadıköy. Increase and improve neighborhood green spaces while respecting ecological surroundings.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "A street-level oblique view looking along Batman Sokak toward a fenced former lot beside commercial buildings in Sahrayıcedid, Kadıköy. Increase and improve neighborhood green spaces while respecting ecological surroundings.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1632,
+    768
+   ],
+   "after_size": [
+    1632,
+    768
+   ]
+  },
+  {
+   "id": "h075",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h075_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h075_after.jpg",
+   "text": "Project brief:\nA pedestrian promenade shaded by mature trees is viewed along its length from eye level, with a carriageway to the right. Limit jaywalking while preserving clear views across the road.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "A pedestrian promenade shaded by mature trees is viewed along its length from eye level, with a carriageway to the right. Limit jaywalking while preserving clear views across the road.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1568,
+    800
+   ],
+   "after_size": [
+    1568,
+    800
+   ]
+  },
+  {
+   "id": "h079",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h079_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h079_after.jpg",
+   "text": "Project brief:\nThe drop-off porch at the entrance of a Singapore public housing block, seen from the vehicle forecourt in front of it. A safer, weather-proof pick-up and drop-off experience\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "The drop-off porch at the entrance of a Singapore public housing block, seen from the vehicle forecourt in front of it. A safer, weather-proof pick-up and drop-off experience",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1533,
+    1152
+   ],
+   "after_size": [
+    1533,
+    1152
+   ]
+  },
+  {
+   "id": "h080",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h080_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h080_after.jpg",
+   "text": "Project brief:\nA view eastward along narrow ul. Evlogi Georgiev in Kapana, Plovdiv, from the street entrance between low commercial facades. Preserve the district’s authentic historic character.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "A view eastward along narrow ul. Evlogi Georgiev in Kapana, Plovdiv, from the street entrance between low commercial facades. Preserve the district’s authentic historic character.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1632,
+    768
+   ],
+   "after_size": [
+    1632,
+    768
+   ]
+  },
+  {
+   "id": "h081",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h081_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h081_after.jpg",
+   "text": "Project brief:\nFrom a bicycle-marked roadway, the camera looks toward the underside of Cambie Street Bridge and its adjacent space at Spyglass Place in Vancouver. Make the local energy utility recognizable as a gateway to the city.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "From a bicycle-marked roadway, the camera looks toward the underside of Cambie Street Bridge and its adjacent space at Spyglass Place in Vancouver. Make the local energy utility recognizable as a gateway to the city.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ],
+   "after_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h083",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h083_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h083_after.jpg",
+   "text": "Project brief:\nA raised view over a curved roadside sidewalk and a strip of land beside a large paved yard with a metal fence, on a city street. Make the unused street corner usable and improve its green appearance as a pocket park.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "A raised view over a curved roadside sidewalk and a strip of land beside a large paved yard with a metal fence, on a city street. Make the unused street corner usable and improve its green appearance as a pocket park.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1184,
+    864
+   ],
+   "after_size": [
+    1184,
+    864
+   ]
+  },
+  {
+   "id": "h085",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h085_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h085_after.jpg",
+   "text": "Project brief:\nAn open yard at Donald L. Morrill Math & Science School, viewed across the play area toward the blue-roofed building at left and the tree line at the back. Provide students a place to play.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "An open yard at Donald L. Morrill Math & Science School, viewed across the play area toward the blue-roofed building at left and the tree line at the back. Provide students a place to play.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    928,
+    1088
+   ],
+   "after_size": [
+    928,
+    1088
+   ]
+  },
+  {
+   "id": "h087",
+   "boxes": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h087_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h087_after.jpg",
+   "text": "Project brief:\nA town street in Ajuda, Lisbon, seen from the carriageway looking along the street, with houses on both sides and a mature tree group ahead. a more continuous walking route between the lower and upper parts of this area\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "A town street in Ajuda, Lisbon, seen from the carriageway looking along the street, with houses on both sides and a mature tree group ahead. a more continuous walking route between the lower and upper parts of this area",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ],
+   "after_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h088",
+   "boxes": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h088_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h088_after.jpg",
+   "text": "Project brief:\nStreet-level view up Calle Sanlúcar la Mayor from the near end of the block, with apartments and sidewalks on both sides. Connect Alcalá de Guadaíra to Seville Metro Line 1 through guided public transport.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "Street-level view up Calle Sanlúcar la Mayor from the near end of the block, with apartments and sidewalks on both sides. Connect Alcalá de Guadaíra to Seville Metro Line 1 through guided public transport.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ],
+   "after_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h089",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h089_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h089_after.jpg",
+   "text": "Project brief:\nThe front gable end of a rural brick-works production building with a utility pole beside it, seen from a meadow. Preserve and restore the historic brickworks and give access to its buildings\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "The front gable end of a rural brick-works production building with a utility pole beside it, seen from a meadow. Preserve and restore the historic brickworks and give access to its buildings",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1248,
+    832
+   ],
+   "after_size": [
+    1248,
+    832
+   ]
+  },
+  {
+   "id": "h091",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h091_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h091_after.jpg",
+   "text": "Project brief:\nRural National Route 157 in Imai, Ono City, Japan, viewed from a field-side access toward a village with the road left and cultivated fields right. Provide reliable illumination for people using this route after dark.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "Rural National Route 157 in Imai, Ono City, Japan, viewed from a field-side access toward a village with the road left and cultivated fields right. Provide reliable illumination for people using this route after dark.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1024,
+    768
+   ],
+   "after_size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "id": "h097",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h097_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h097_after.jpg",
+   "text": "Project brief:\nA city-centre street corner where a wide carriageway meets a paved open area in front of ground-floor shops, seen from the roadway. light the open area well enough for evening use by pedestrians\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "A city-centre street corner where a wide carriageway meets a paved open area in front of ground-floor shops, seen from the roadway. light the open area well enough for evening use by pedestrians",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ],
+   "after_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h107",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h107_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h107_after.jpg",
+   "text": "Project brief:\nStreet-level view looking along Herbert Samuel Street beside the Mediterranean promenade near Frishman Beach, with the buildings on the left and the sea on the right. Encourage cycling as an alternative to driving along the seafront.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "Street-level view looking along Herbert Samuel Street beside the Mediterranean promenade near Frishman Beach, with the buildings on the left and the sea on the right. Encourage cycling as an alternative to driving along the seafront.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ],
+   "after_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h108",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h108_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h108_after.jpg",
+   "text": "Project brief:\nStreet-level view across Water Street toward Stuart Park, the waterfront park at 1430 Water Street in Kelowna. Protect reliable public access to the downtown lakefront.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "Street-level view across Water Street toward Stuart Park, the waterfront park at 1430 Water Street in Kelowna. Protect reliable public access to the downtown lakefront.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ],
+   "after_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h110",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h110_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h110_after.jpg",
+   "text": "Project brief:\nAn eye-level view along Ben Sira Street in central Jerusalem, looking uphill between historic left-side shopfronts and the curved building at the right corner. Improve visitor wayfinding through clearer street-direction and destination signs.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "An eye-level view along Ben Sira Street in central Jerusalem, looking uphill between historic left-side shopfronts and the curved building at the right corner. Improve visitor wayfinding through clearer street-direction and destination signs.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1632,
+    768
+   ],
+   "after_size": [
+    1632,
+    768
+   ]
+  },
+  {
+   "id": "h112",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h112_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h112_after.jpg",
+   "text": "Project brief:\nA narrow historic alley between stone buildings descends toward the Mediterranean; the camera looks seaward from the inland end. Reconnect the historic Souk with the seafront while respecting the historic setting.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "A narrow historic alley between stone buildings descends toward the Mediterranean; the camera looks seaward from the inland end. Reconnect the historic Souk with the seafront while respecting the historic setting.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    704,
+    896
+   ],
+   "after_size": [
+    704,
+    896
+   ]
+  },
+  {
+   "id": "h113",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h113_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h113_after.jpg",
+   "text": "Project brief:\nView down a narrow residential lane beside a small dark-tiled roadside shrine in Uryudo, Higashiosaka, with a fenced property on the left. Restore and repair historic features of the roadside shrine.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "View down a narrow residential lane beside a small dark-tiled roadside shrine in Uryudo, Higashiosaka, with a fenced property on the left. Restore and repair historic features of the roadside shrine.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1184,
+    864
+   ],
+   "after_size": [
+    1184,
+    864
+   ]
+  },
+  {
+   "id": "h114",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h114_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h114_after.jpg",
+   "text": "Project brief:\nStreet-facing view of the Old Dispensary's principal three-level carved-timber veranda facade in Stone Town, Zanzibar. Provide step-free access for visitors entering the building\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "Street-facing view of the Old Dispensary's principal three-level carved-timber veranda facade in Stone Town, Zanzibar. Provide step-free access for visitors entering the building",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1254,
+    826
+   ],
+   "after_size": [
+    1254,
+    826
+   ]
+  },
+  {
+   "id": "h116",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h116_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h116_after.jpg",
+   "text": "Project brief:\nStreet-level westward view along Calle Manuel López Cotilla from its intersection with Avenida Francisco Javier Gamboa in Guadalajara, with shops on both sides and the junction foreground. Give existing building entrances step-free access for wheelchair users.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "Street-level westward view along Calle Manuel López Cotilla from its intersection with Avenida Francisco Javier Gamboa in Guadalajara, with shops on both sides and the junction foreground. Give existing building entrances step-free access for wheelchair users.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ],
+   "after_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h120",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h120_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h120_after.jpg",
+   "text": "Project brief:\nLooking down Natan Keizerman Street from its junction in the Turkish Market district of Lower Haifa, between ground-floor shops on two sides. Revive the historic market as an active pedestrian destination for shops, leisure and community life.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "Looking down Natan Keizerman Street from its junction in the Turkish Market district of Lower Haifa, between ground-floor shops on two sides. Revive the historic market as an active pedestrian destination for shops, leisure and community life.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ],
+   "after_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h123",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h123_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h123_after.jpg",
+   "text": "Project brief:\nA wide city street (Lonsdale Street, Dandenong) with a three-storey cream building and shopfronts on the left, a heritage clock-tower building beyond, and the road running away to the right; the camera stands on the road, looking along the street. a green, pedestrian and cyclist priority main street\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "A wide city street (Lonsdale Street, Dandenong) with a three-storey cream building and shopfronts on the left, a heritage clock-tower building beyond, and the road running away to the right; the camera stands on the road, looking along the street. a green, pedestrian and cyclist priority main street",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ],
+   "after_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h130",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h130_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h130_after.jpg",
+   "text": "Project brief:\nA roadside view looking toward the bend on Kitafunaki-Katsuno Line at Shimo-Ogawa, with property walls beside the left verge. Provide a safe, comfortable continuous walking route and improve sight distance.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "A roadside view looking toward the bend on Kitafunaki-Katsuno Line at Shimo-Ogawa, with property walls beside the left verge. Provide a safe, comfortable continuous walking route and improve sight distance.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    913,
+    685
+   ],
+   "after_size": [
+    913,
+    685
+   ]
+  },
+  {
+   "id": "h133",
+   "boxes": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h133_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h133_after.jpg",
+   "text": "Project brief:\nA two-lane road squeezed between a wooded hillside on the left and a river on the right, seen from the roadside looking toward a road bridge. Improve pedestrian safety\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "A two-lane road squeezed between a wooded hillside on the left and a river on the right, seen from the roadside looking toward a road bridge. Improve pedestrian safety",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    672,
+    512
+   ],
+   "after_size": [
+    672,
+    512
+   ]
+  },
+  {
+   "id": "h145",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h145_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h145_after.jpg",
+   "text": "Project brief:\nStreet-level view across Place Canteloup in Bordeaux toward historic shopfronts and the stone side of the Saint-Michel basilica. Support active, flexible market use of the square while giving people walking priority and limiting the impact of motor traffic.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "Street-level view across Place Canteloup in Bordeaux toward historic shopfronts and the stone side of the Saint-Michel basilica. Support active, flexible market use of the square while giving people walking priority and limiting the impact of motor traffic.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ],
+   "after_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h147",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h147_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h147_after.jpg",
+   "text": "Project brief:\nA tree-lined stretch of St. Mark’s Road in Bengaluru, viewed along the carriageway toward the roadside frontage. Improve perceived personal security and discourage criminal activity along the street.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "A tree-lined stretch of St. Mark’s Road in Bengaluru, viewed along the carriageway toward the roadside frontage. Improve perceived personal security and discourage criminal activity along the street.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1280,
+    800
+   ],
+   "after_size": [
+    1280,
+    800
+   ]
+  },
+  {
+   "id": "h148",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h148_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h148_after.jpg",
+   "text": "Project brief:\nA high oblique aerial view looks toward the shore-side Pak Kok Pier platform on northern Lamma Island, with open sea in the foreground. Make vessel berthing more stable and passenger boarding safer and more convenient.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "A high oblique aerial view looks toward the shore-side Pak Kok Pier platform on northern Lamma Island, with open sea in the foreground. Make vessel berthing more stable and passenger boarding safer and more convenient.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1152,
+    864
+   ],
+   "after_size": [
+    1152,
+    864
+   ]
+  },
+  {
+   "id": "h151",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h151_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h151_after.jpg",
+   "text": "Project brief:\nA view from the footpath at the Stewart and Roberts Street bend, facing the corner housing and intersecting streets in Brunswick East. Slow traffic and make the crossing into CERES safer and more visible.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "A view from the footpath at the Stewart and Roberts Street bend, facing the corner housing and intersecting streets in Brunswick East. Slow traffic and make the crossing into CERES safer and more visible.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1504,
+    672
+   ],
+   "after_size": [
+    1504,
+    672
+   ]
+  },
+  {
+   "id": "h153",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h153_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h153_after.jpg",
+   "text": "Project brief:\nThe camera stands near the southwest edge of Place d’Armes, looking across the square toward Notre-Dame Basilica in Old Montréal. Reinterpret this historic square as a meaningful place for civic gathering.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "The camera stands near the southwest edge of Place d’Armes, looking across the square toward Notre-Dame Basilica in Old Montréal. Reinterpret this historic square as a meaningful place for civic gathering.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ],
+   "after_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h154",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h154_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h154_after.jpg",
+   "text": "Project brief:\nVitosha Boulevard in Sofia, viewed along the shopping street from the near cross-street toward the distant promenade and surrounding apartment-shop frontages. Develop Vitosha Boulevard as a fully functioning pedestrian zone.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "Vitosha Boulevard in Sofia, viewed along the shopping street from the near cross-street toward the distant promenade and surrounding apartment-shop frontages. Develop Vitosha Boulevard as a fully functioning pedestrian zone.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1632,
+    768
+   ],
+   "after_size": [
+    1632,
+    768
+   ]
+  },
+  {
+   "id": "h155",
+   "boxes": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h155_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h155_after.jpg",
+   "text": "Project brief:\nFrom the mouth of a narrow residential lane in El Mestiri, the camera looks between close-set houses toward the far end of the street, with tall red metal gates on the near left. Restore deteriorated residential building façades and their entrance features.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "From the mouth of a narrow residential lane in El Mestiri, the camera looks between close-set houses toward the far end of the street, with tall red metal gates on the near left. Restore deteriorated residential building façades and their entrance features.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1056,
+    1024
+   ],
+   "after_size": [
+    1056,
+    1024
+   ]
+  },
+  {
+   "id": "h158",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h158_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h158_after.jpg",
+   "text": "Project brief:\nStreet-level view looking along the historic shop-lined street near Ferenciek tere in central Budapest, with the camera in the former sunken roadway. Improve the downtown public realm as a place where people can comfortably spend time.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "Street-level view looking along the historic shop-lined street near Ferenciek tere in central Budapest, with the camera in the former sunken roadway. Improve the downtown public realm as a place where people can comfortably spend time.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ],
+   "after_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h159",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h159_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h159_after.jpg",
+   "text": "Project brief:\nA street-level view looking along the Krzyżówki approach toward its meeting with Płochocińska and Spedycyjna, with low white buildings and the industrial building opposite. Make junction movements safer and the pedestrian approach more comfortable.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "A street-level view looking along the Krzyżówki approach toward its meeting with Płochocińska and Spedycyjna, with low white buildings and the industrial building opposite. Make junction movements safer and the pedestrian approach more comfortable.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    800,
+    512
+   ],
+   "after_size": [
+    800,
+    512
+   ]
+  },
+  {
+   "id": "h165",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h165_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h165_after.jpg",
+   "text": "Project brief:\nView east along Barkly Avenue from the curved paved junction beside Barkly Gardens in Richmond, with lawns to the left and treed parkland to the right. Provide additional park space and improve the experience of people travelling through it.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "View east along Barkly Avenue from the curved paved junction beside Barkly Gardens in Richmond, with lawns to the left and treed parkland to the right. Provide additional park space and improve the experience of people travelling through it.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ],
+   "after_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h167",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h167_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h167_after.jpg",
+   "text": "Project brief:\nA courtyard inside a brick fortress bastion, seen from a corner, with a long row of arched bays in a tall brick wall on the right and a low brick wing at the far left. Preserve the historic character of the place and prevent further decay of the ramparts.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "A courtyard inside a brick fortress bastion, seen from a corner, with a long row of arched bays in a tall brick wall on the right and a low brick wing at the far left. Preserve the historic character of the place and prevent further decay of the ramparts.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1248,
+    832
+   ],
+   "after_size": [
+    1248,
+    832
+   ]
+  },
+  {
+   "id": "h168",
+   "boxes": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h168_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h168_after.jpg",
+   "text": "Project brief:\nA view down Zámecký rybník in Čakovice, taken beside the left shoreline toward a distant island and wooded opposite bank. Prevent further erosion at the pond edges.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "A view down Zámecký rybník in Čakovice, taken beside the left shoreline toward a distant island and wooded opposite bank. Prevent further erosion at the pond edges.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1088,
+    704
+   ],
+   "after_size": [
+    1088,
+    704
+   ]
+  },
+  {
+   "id": "h169",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h169_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h169_after.jpg",
+   "text": "Project brief:\nA street-level view down a local two-lane road that curves left beside a black fence and a busy higher road in Fukuoka, Japan. Improve the visibility of traffic signs for approaching drivers.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "A street-level view down a local two-lane road that curves left beside a black fence and a busy higher road in Fukuoka, Japan. Improve the visibility of traffic signs for approaching drivers.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1184,
+    864
+   ],
+   "after_size": [
+    1184,
+    864
+   ]
+  },
+  {
+   "id": "h180",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h180_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h180_after.jpg",
+   "text": "Project brief:\nLower Brougham Street at the Ariki Street junction in central New Plymouth, in front of the Puke Ariki library, seen at street level from the carriageway looking up the street. Make this street a more open, friendly and inviting place, and let all road users share it at slow speed.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "Lower Brougham Street at the Ariki Street junction in central New Plymouth, in front of the Puke Ariki library, seen at street level from the carriageway looking up the street. Make this street a more open, friendly and inviting place, and let all road users share it at slow speed.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ],
+   "after_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h181",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h181_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h181_after.jpg",
+   "text": "Project brief:\nA school courtyard seen from among the trees toward the long glazed school building. Keep the courtyard cooler during heat waves and provide more varied, calmer spaces for play.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "A school courtyard seen from among the trees toward the long glazed school building. Keep the courtyard cooler during heat waves and provide more varied, calmer spaces for play.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1216,
+    832
+   ],
+   "after_size": [
+    1216,
+    832
+   ]
+  },
+  {
+   "id": "h184",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h184_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h184_after.jpg",
+   "text": "Project brief:\nOverhead view of a triangular former parking placette between Billaudel, Fieffé and Françin streets, Bordeaux, seen from above the adjoining corner rooftops. Create a healthier urban ecosystem while reducing future neighborhood heat exposure.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "Overhead view of a triangular former parking placette between Billaudel, Fieffé and Françin streets, Bordeaux, seen from above the adjoining corner rooftops. Create a healthier urban ecosystem while reducing future neighborhood heat exposure.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1344,
+    768
+   ],
+   "after_size": [
+    1344,
+    768
+   ]
+  },
+  {
+   "id": "h185",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h185_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h185_after.jpg",
+   "text": "Project brief:\nStreet-level perspective down Calle Constitución in Mazatlán historic centre, flanked by close-set shopfronts, sidewalks and low traditional buildings. Conserve the historic centre while improving its visitor appeal and local tourism economy.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "Street-level perspective down Calle Constitución in Mazatlán historic centre, flanked by close-set shopfronts, sidewalks and low traditional buildings. Conserve the historic centre while improving its visitor appeal and local tourism economy.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ],
+   "after_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h187",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h187_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h187_after.jpg",
+   "text": "Project brief:\nAn elevated view looks diagonally along a paved service lane beside a broad water basin and grassy margins at an Indore facility. Increase the capacity of the access lane for maintenance vehicles.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "An elevated view looks diagonally along a paved service lane beside a broad water basin and grassy margins at an Indore facility. Increase the capacity of the access lane for maintenance vehicles.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    544,
+    704
+   ],
+   "after_size": [
+    544,
+    704
+   ]
+  },
+  {
+   "id": "h189",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h189_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h189_after.jpg",
+   "text": "Project brief:\nA paved city-centre square in Hamburg, seen from a low camera position on the open ground, with a tall brick office building behind and a bus stop at the right. Preserve the square’s historic character and create a coherent, accessible public realm.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "A paved city-centre square in Hamburg, seen from a low camera position on the open ground, with a tall brick office building behind and a bus stop at the right. Preserve the square’s historic character and create a coherent, accessible public realm.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    608,
+    672
+   ],
+   "after_size": [
+    608,
+    672
+   ]
+  },
+  {
+   "id": "h203",
+   "boxes": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h203_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h203_after.jpg",
+   "text": "Project brief:\nThe camera faces along the internal lane into Praça Horácio Sabino from the street entrance, with grassy lawns and paved footways on both sides. Conserve the square’s planted landscape.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "The camera faces along the internal lane into Praça Horácio Sabino from the street entrance, with grassy lawns and paved footways on both sides. Conserve the square’s planted landscape.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1632,
+    768
+   ],
+   "after_size": [
+    1632,
+    768
+   ]
+  },
+  {
+   "id": "h206",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h206_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h206_after.jpg",
+   "text": "Project brief:\nAt Kvindens Plads in Aalborg, the camera looks along the Utzon Centre waterfront frontage toward the harbour edge and Limfjord. Provide accessible public recreational space connecting the city and the fjord.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "At Kvindens Plads in Aalborg, the camera looks along the Utzon Centre waterfront frontage toward the harbour edge and Limfjord. Provide accessible public recreational space connecting the city and the fjord.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1632,
+    768
+   ],
+   "after_size": [
+    1632,
+    768
+   ]
+  },
+  {
+   "id": "h207",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h207_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h207_after.jpg",
+   "text": "Project brief:\nA street junction beneath an elevated railway, viewed toward the opposite storefronts and station entrance. Create a safer pedestrian-only space beside the station.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "A street junction beneath an elevated railway, viewed toward the opposite storefronts and station entrance. Create a safer pedestrian-only space beside the station.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1376,
+    736
+   ],
+   "after_size": [
+    1376,
+    736
+   ]
+  },
+  {
+   "id": "h210",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h210_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h210_after.jpg",
+   "text": "Project brief:\nFrontal street-level view from the opposite sidewalk toward a row of shopfronts and an arched doorway numbered 74 in Porto, Portugal. Preserve and rehabilitate the historic architectural character of the street.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "Frontal street-level view from the opposite sidewalk toward a row of shopfronts and an arched doorway numbered 74 in Porto, Portugal. Preserve and rehabilitate the historic architectural character of the street.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1248,
+    832
+   ],
+   "after_size": [
+    1248,
+    832
+   ]
+  },
+  {
+   "id": "h211",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h211_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h211_after.jpg",
+   "text": "Project brief:\nAn elevated view along a straight urban corridor between office blocks, with a street and shop sign on the left, taken from a high building. Protect the city centre from flooding and provide a continuous green route for people and wildlife.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "An elevated view along a straight urban corridor between office blocks, with a street and shop sign on the left, taken from a high building. Protect the city centre from flooding and provide a continuous green route for people and wildlife.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1216,
+    832
+   ],
+   "after_size": [
+    1216,
+    832
+   ]
+  },
+  {
+   "id": "h213",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h213_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h213_after.jpg",
+   "text": "Project brief:\nThe camera looks along a tree-lined street in Taichung's new municipal district, with a sidewalk and parking lane on the left and a parking lane and verge on the right. Make the street safer and greener for people on foot.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "The camera looks along a tree-lined street in Taichung's new municipal district, with a sidewalk and parking lane on the left and a parking lane and verge on the right. Make the street safer and greener for people on foot.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ],
+   "after_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h214",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h214_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h214_after.jpg",
+   "text": "Project brief:\nA small suburban park playspace with a stone-edged woodchip play area behind a green timber fence, seen from the lawn in front of it. Expand the play space and renew play equipment.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "A small suburban park playspace with a stone-edged woodchip play area behind a green timber fence, seen from the lawn in front of it. Expand the play space and renew play equipment.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1248,
+    800
+   ],
+   "after_size": [
+    1248,
+    800
+   ]
+  },
+  {
+   "id": "h219",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h219_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h219_after.jpg",
+   "text": "Project brief:\nView along Evans Avenue from the Napoleon/Toland intersection approach toward the elevated roadways, with a sidewalk on each side. Reduce motor-vehicle delays while passing through the intersection.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "View along Evans Avenue from the Napoleon/Toland intersection approach toward the elevated roadways, with a sidewalk on each side. Reduce motor-vehicle delays while passing through the intersection.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1152,
+    896
+   ],
+   "after_size": [
+    1152,
+    896
+   ]
+  },
+  {
+   "id": "h225",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h225_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h225_after.jpg",
+   "text": "Project brief:\nAt the 3rd Avenue South and Yesler Way junction in Seattle, the camera faces north across the roadway toward a glass-roofed transit entrance and corner buildings. Keep people cycling and walking from mixing at the intersection.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "At the 3rd Avenue South and Yesler Way junction in Seattle, the camera faces north across the roadway toward a glass-roofed transit entrance and corner buildings. Keep people cycling and walking from mixing at the intersection.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    800,
+    480
+   ],
+   "after_size": [
+    800,
+    480
+   ]
+  },
+  {
+   "id": "h226",
+   "boxes": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h226_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h226_after.jpg",
+   "text": "Project brief:\nThe camera faces the main Chhatri's frontal entrance and raised stepped platform in Chhatri Bagh, Indore, India. Provide step-free access for visitors.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "The camera faces the main Chhatri's frontal entrance and raised stepped platform in Chhatri Bagh, Indore, India. Provide step-free access for visitors.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1280,
+    800
+   ],
+   "after_size": [
+    1280,
+    800
+   ]
+  },
+  {
+   "id": "h227",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h227_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h227_after.jpg",
+   "text": "Project brief:\nView down Rua 16 de Maio in Aveiro, from its near end between closely spaced restaurant and shop buildings toward a distant junction. Improve the visual quality of the neighbourhood streetscape.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "View down Rua 16 de Maio in Aveiro, from its near end between closely spaced restaurant and shop buildings toward a distant junction. Improve the visual quality of the neighbourhood streetscape.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ],
+   "after_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h236",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h236_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h236_after.jpg",
+   "text": "Project brief:\nStreet-level view along western Sønder Boulevard, with apartment buildings on the left and a petrol station to the right. Offer the dense neighbourhood an inviting green place for outdoor recreation.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "Street-level view along western Sønder Boulevard, with apartment buildings on the left and a petrol station to the right. Offer the dense neighbourhood an inviting green place for outdoor recreation.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ],
+   "after_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h243",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h243_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h243_after.jpg",
+   "text": "Project brief:\nAt the Bree Street intersection, the camera looks along Waterkant Street between a Tiger Wheel & Tyre corner shop on the left and a commercial corner building on the right in central Cape Town. Prioritise safe pedestrian movement over vehicles along Waterkant Street\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "At the Bree Street intersection, the camera looks along Waterkant Street between a Tiger Wheel & Tyre corner shop on the left and a commercial corner building on the right in central Cape Town. Prioritise safe pedestrian movement over vehicles along Waterkant Street",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1632,
+    768
+   ],
+   "after_size": [
+    1632,
+    768
+   ]
+  },
+  {
+   "id": "h245",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h245_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h245_after.jpg",
+   "text": "Project brief:\nAn overhead aerial view of a downtown block in Homestead, Florida, between a police station on the west and Krome Avenue on the east. Expand community green space and reflect Homestead’s South Florida setting.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "An overhead aerial view of a downtown block in Homestead, Florida, between a police station on the west and Krome Avenue on the east. Expand community green space and reflect Homestead’s South Florida setting.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1183,
+    845
+   ],
+   "after_size": [
+    1183,
+    845
+   ]
+  },
+  {
+   "id": "h246",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h246_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h246_after.jpg",
+   "text": "Project brief:\nA ground-level view from a roadside beneath the red steel approach span of Akigase Bridge in Japan, looking along its concrete piers. Reduce the risk of vehicles leaving the roadside.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "A ground-level view from a roadside beneath the red steel approach span of Akigase Bridge in Japan, looking along its concrete piers. Reduce the risk of vehicles leaving the roadside.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1184,
+    864
+   ],
+   "after_size": [
+    1184,
+    864
+   ]
+  },
+  {
+   "id": "h258",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h258_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h258_after.jpg",
+   "text": "Project brief:\nAn eye-level view looking down Fort Street in central Auckland between closely spaced commercial buildings. Support businesses and residents through a wider range of street activities.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "An eye-level view looking down Fort Street in central Auckland between closely spaced commercial buildings. Support businesses and residents through a wider range of street activities.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ],
+   "after_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h259",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h259_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h259_after.jpg",
+   "text": "Project brief:\nView looking along Dale Street in Port Adelaide from the carriageway, between brick commercial buildings on both sides. Revitalise Port Adelaide town centre after economic decline\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "View looking along Dale Street in Port Adelaide from the carriageway, between brick commercial buildings on both sides. Revitalise Port Adelaide town centre after economic decline",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ],
+   "after_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h264",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h264_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h264_after.jpg",
+   "text": "Project brief:\nView along 4th Avenue toward a signalized downtown Seattle intersection from beside the right-side sidewalk. Make curbside parking time restrictions easier for drivers to identify.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "View along 4th Avenue toward a signalized downtown Seattle intersection from beside the right-side sidewalk. Make curbside parking time restrictions easier for drivers to identify.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1152,
+    896
+   ],
+   "after_size": [
+    1152,
+    896
+   ]
+  },
+  {
+   "id": "h268",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h268_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h268_after.jpg",
+   "text": "Project brief:\nA street-level view looking along Avenida José Larco past shopfronts and an avenue intersection in Miraflores, Lima. Increase greenery along the avenue\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "A street-level view looking along Avenida José Larco past shopfronts and an avenue intersection in Miraflores, Lima. Increase greenery along the avenue",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ],
+   "after_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h271",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h271_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h271_after.jpg",
+   "text": "Project brief:\nQueen Anne Ave N beside the MarQueen Hotel, viewed uphill from the roadway near W Mercer St. Connect bicycle facilities and separate people biking from moving vehicles\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "Queen Anne Ave N beside the MarQueen Hotel, viewed uphill from the roadway near W Mercer St. Connect bicycle facilities and separate people biking from moving vehicles",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1248,
+    800
+   ],
+   "after_size": [
+    1248,
+    800
+   ]
+  },
+  {
+   "id": "h272",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h272_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h272_after.jpg",
+   "text": "Project brief:\nA camera looks east along the north verge and retaining wall of S Orcas Street near 25th Avenue South in Seattle. Make school walking and biking safer and easier, reducing dependence on car trips.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "A camera looks east along the north verge and retaining wall of S Orcas Street near 25th Avenue South in Seattle. Make school walking and biking safer and easier, reducing dependence on car trips.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1280,
+    800
+   ],
+   "after_size": [
+    1280,
+    800
+   ]
+  },
+  {
+   "id": "h273",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h273_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h273_after.jpg",
+   "text": "Project brief:\nA three-storey listed town house on a pedestrian street in Znojmo with a shop and an arched gateway on the ground floor, seen from street level. Recover the original artistic value and legibility of this listed building's historic decoration.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "A three-storey listed town house on a pedestrian street in Znojmo with a shop and an arched gateway on the ground floor, seen from street level. Recover the original artistic value and legibility of this listed building's historic decoration.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1152,
+    864
+   ],
+   "after_size": [
+    1152,
+    864
+   ]
+  },
+  {
+   "id": "h275",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h275_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h275_after.jpg",
+   "text": "Project brief:\nA street-level view along Mumhane Caddesi toward its narrow continuation, with a courier shopfront on the right and an old stone building on the left in Karaköy, Istanbul. Make pedestrian movement through this busy street and square easier.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "A street-level view along Mumhane Caddesi toward its narrow continuation, with a courier shopfront on the right and an old stone building on the left in Karaköy, Istanbul. Make pedestrian movement through this busy street and square easier.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1632,
+    768
+   ],
+   "after_size": [
+    1632,
+    768
+   ]
+  },
+  {
+   "id": "h279",
+   "boxes": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h279_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h279_after.jpg",
+   "text": "Project brief:\nA narrow city street lined with brick buildings and a covered market arcade on the left, seen from the middle of the carriageway looking along it. A flexible street favouring pedestrians and cyclists with limited vehicle traffic, and lively outdoor dining and retail\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "A narrow city street lined with brick buildings and a covered market arcade on the left, seen from the middle of the carriageway looking along it. A flexible street favouring pedestrians and cyclists with limited vehicle traffic, and lively outdoor dining and retail",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ],
+   "after_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h280",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h280_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h280_after.jpg",
+   "text": "Project brief:\nThe long side wall of a two-storey Baroque parsonage seen from its garden, with a timber-clad gable and a lower slate-roofed annex on the left. Restore the parsonage’s historic form.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "The long side wall of a two-storey Baroque parsonage seen from its garden, with a timber-clad gable and a lower slate-roofed annex on the left. Restore the parsonage’s historic form.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1184,
+    864
+   ],
+   "after_size": [
+    1184,
+    864
+   ]
+  },
+  {
+   "id": "h283",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h283_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h283_after.jpg",
+   "text": "Project brief:\nA street-level camera looks from the near zebra crossing along Petrovka Street, with a tall commercial building left and a pale stone corner building right. Give pedestrians more usable street space away from regular motor traffic.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "A street-level camera looks from the near zebra crossing along Petrovka Street, with a tall commercial building left and a pale stone corner building right. Give pedestrians more usable street space away from regular motor traffic.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ],
+   "after_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h286",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h286_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h286_after.jpg",
+   "text": "Project brief:\nTotara Avenue West in New Lynn town centre, Auckland: shops and a shop-front sign on the left, a brick kiosk and a modern glazed building on the right, camera at the kerb looking up the street. Make drivers slow down and give the street back to pedestrians\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "Totara Avenue West in New Lynn town centre, Auckland: shops and a shop-front sign on the left, a brick kiosk and a modern glazed building on the right, camera at the kerb looking up the street. Make drivers slow down and give the street back to pedestrians",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ],
+   "after_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h289",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h289_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h289_after.jpg",
+   "text": "Project brief:\nA view across an enclosed lawn toward low estate outbuildings and brick housing on the Queen Caroline Estate in West London. Make the estate landscape more climate-resilient, ecologically healthy, and attractive.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "A view across an enclosed lawn toward low estate outbuildings and brick housing on the Queen Caroline Estate in West London. Make the estate landscape more climate-resilient, ecologically healthy, and attractive.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1248,
+    832
+   ],
+   "after_size": [
+    1248,
+    832
+   ]
+  },
+  {
+   "id": "h291",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h291_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h291_after.jpg",
+   "text": "Project brief:\nLooking northeast along Av. Brás de Pina outside the commercial buildings in Penha, from the middle of the road. Provide a protected, reliable route for rapid bus services through this avenue.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "Looking northeast along Av. Brás de Pina outside the commercial buildings in Penha, from the middle of the road. Provide a protected, reliable route for rapid bus services through this avenue.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ],
+   "after_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h292",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h292_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h292_after.jpg",
+   "text": "Project brief:\nAn oblique street-level view across Csarnok tér toward a long historic brick-and-stone facade with a modern office building on the right. Renew the square’s public-space appearance while calming vehicle movement.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "An oblique street-level view across Csarnok tér toward a long historic brick-and-stone facade with a modern office building on the right. Renew the square’s public-space appearance while calming vehicle movement.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ],
+   "after_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h293",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h293_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h293_after.jpg",
+   "text": "Project brief:\nAn urban avenue in Santiago de Querétaro seen from an elevated footbridge, looking along the road toward a hillside with an open lot on the right. Give cyclists a safer, more sustainable way to move along the avenue\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "An urban avenue in Santiago de Querétaro seen from an elevated footbridge, looking along the road toward a hillside with an open lot on the right. Give cyclists a safer, more sustainable way to move along the avenue",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1152,
+    864
+   ],
+   "after_size": [
+    1152,
+    864
+   ]
+  },
+  {
+   "id": "h297",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h297_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h297_after.jpg",
+   "text": "Project brief:\nLooking along William Street in Ottawa’s ByWard Market from the York Street intersection toward the Clarence Street end, with the market arcade to the left and shops to the right. Create a welcoming public place where people can gather, linger and sit.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "Looking along William Street in Ottawa’s ByWard Market from the York Street intersection toward the Clarence Street end, with the market arcade to the left and shops to the right. Create a welcoming public place where people can gather, linger and sit.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1472,
+    704
+   ],
+   "after_size": [
+    1472,
+    704
+   ]
+  },
+  {
+   "id": "h300",
+   "boxes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "before": "https://hosamgen.github.io/t1-study-assets/images/h300_before.jpg",
+   "after": "https://hosamgen.github.io/t1-study-assets/images/h300_after.jpg",
+   "text": "Project brief:\nAt the Hradec Králové square corner, the camera faces a pink corner storefront where a narrow side street joins the broader street to the right. Screen the public space from motor-vehicle traffic.\n\nImage 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "brief": "At the Hradec Králové square corner, the camera faces a pink corner storefront where a narrow side street joins the broader street to the right. Screen the public space from motor-vehicle traffic.",
+   "prompt": "Image 1 is the site before the project; image 2 is the same site after it.\nThe same numbered boxes are drawn on both photos.\nEach numbered box marks the same part of the scene in both photos (the photos may be slightly shifted). Which marked regions show a change made for the priority stated in the brief? A region counts only if it changed between the Before and After photos AND that change serves this priority. Select all that apply.",
+   "before_size": [
+    1632,
+    768
+   ],
+   "after_size": [
+    1632,
+    768
+   ]
+  }
+ ]
+}
