@@ -1,7 +1,7 @@
 {
  "part": "U3",
  "n": 100,
- "instructions": "How to answer: \"Which boxes would the project have to change?\"\n\nYou will see only the BEFORE photo of a place; the result of the project is not shown. The brief states one objective.\n\nSelect every box that the project would have to change to achieve that objective. Do not select boxes that this objective does not require changing, even if they could be improved in other ways. Select at least one box.\n\nExample (made up):\nObjective: \"Give pedestrians more shade while walking.\"\nBox 1 (a wide sidewalk with no trees): needs trees or awnings. Select it.\nBox 2 (the upper floors of a building): no change needed for shade at street level. Do not select it.\nBox 3 (the road surface): not needed for shade. Do not select it.\nAnswer: Box 1.",
+ "instructions": "How to answer: \"Which boxes would the project have to change?\"\n\nYou will see only the BEFORE photo of a place; the result of the project is not shown. The brief states one objective.\n\nSelect every box that the project would have to change to achieve that objective. Do not select boxes that this objective does not require changing, even if they could be improved in other ways. Select at least one box.\n\nExample:\nObjective: \"Give pedestrians more shade while walking.\"\nBox 1 (a wide sidewalk with no trees): needs trees or awnings. Select it.\nBox 2 (the upper floors of a building): no change needed for shade at street level. Do not select it.\nBox 3 (the road surface): not needed for shade. Do not select it.\nAnswer: Box 1.",
  "batches": [
   [
    "h001",

@@ -26,7 +26,7 @@ You will see two photos of the same place: BEFORE the project and AFTER it. The 
 
 Select every box that changed between the two photos AND whose change serves that priority. Do not select a box that did not change, or whose change serves something else. If no box qualifies, select "None of the boxes".
 
-Example (made up):
+Example:
 Priority: "Make the street greener."
 Box 1 (the sidewalk): new trees were planted. Select it.
 Box 2 (the road): it was repaved, which does not make the street greener. Do not select it.
@@ -124,7 +124,8 @@ def main():
         out = {
             "part": part,
             "n": len(questions),
-            "instructions": U1_INSTRUCTIONS if part == "U1" else header_instructions(raw),
+            # "Example (made up):" is shown as "Example:" (requested 2026-11-13)
+            "instructions": (U1_INSTRUCTIONS if part == "U1" else header_instructions(raw)).replace("Example (made up):", "Example:"),
             "batches": batches,
             "questions": questions,
         }

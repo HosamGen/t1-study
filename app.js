@@ -56,6 +56,16 @@
     try { return JSON.parse(localStorage.getItem(storeKey) || "null"); } catch (e) { return null; }
   }
 
+  // In the instructions' example: bold the "Example:" heading, each "Box N (...):", its verdict and the "Answer:" line.
+  function exampleLine(line) {
+    if (/^Example\b/.test(line) || /^Answer:/.test(line)) return [h("strong", null, line)];
+    const m = line.match(/^(Box \d+(?: \([^)]*\))?:)\s*(.*?)\s*(Select it\.|Do not select it\.|Answer [A-Z]\.)?$/);
+    if (!m) return [line];
+    const out = [h("strong", null, m[1]), " ", m[2]];
+    if (m[3]) out.push(" ", h("strong", null, m[3]));
+    return out;
+  }
+
   // Plain text -> paragraphs, "- " bullet lists, and an "Example" box. Text is never interpreted as HTML.
   function richText(str, opts = {}) {
     const wrap = h("div", { class: "richtext" });
@@ -73,7 +83,7 @@
           ul = null;
           if (!p) { p = h("p", { class: pi === 0 && opts.lead ? "lead" : null }); box.append(p); }
           else p.append(h("br"));
-          p.append(line);
+          p.append(...(isExample ? exampleLine(line) : [line]));
         }
       }
       if (isExample) { const last = box.lastChild; if (last && last.tagName === "P") last.style.margin = "0"; wrap.append(box); }
