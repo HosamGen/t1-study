@@ -24,8 +24,8 @@ window.STUDY_CONFIG = {
   //         "post"     -> POST the JSON (as text/plain) to postUrl, e.g. a Google Apps Script web app
   //         "none"     -> nothing is sent (testing only)
   save: {
-    method: "none",
-    datapipeExperimentId: "",
+    method: "datapipe",
+    datapipeExperimentId: "4Z4oKjBqGdc4",
     postUrl: "",
     savePreview: false, // true = also send answers from preview links (no PROLIFIC_PID)
   },

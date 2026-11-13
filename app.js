@@ -352,10 +352,12 @@
     const qmain = stage.parentElement;
     const narrow = window.innerWidth < 900; // panel sits below the photos; height is not the limit
     // Photo area width assuming the default panel width; any width the photos cannot use goes to the panel below.
-    const P0 = Math.min(540, Math.max(370, qmain.clientWidth * 0.33)), PMAX = 640;
+    const rem = parseFloat(getComputedStyle(document.documentElement).fontSize) || 16;
+    // Default panel width (grows with the text size), and the most it may take when the photos leave room.
+    const P0 = Math.min(40 * rem, Math.max(24 * rem, qmain.clientWidth * 0.38)), PMAX = 46 * rem;
     const W = narrow ? stage.clientWidth - padX : qmain.clientWidth - P0 - padX;
     const H = narrow ? Infinity : stage.clientHeight - parseFloat(cs.paddingTop) - parseFloat(cs.paddingBottom);
-    const GAP = parseFloat(cs.rowGap) || 10, CAP = 26, CAPW = 26, MAX_SCALE = 2; // caption above (CAP tall) or beside (CAPW wide)
+    const GAP = parseFloat(cs.rowGap) || 10, CAP = 1.625 * rem, CAPW = 1.625 * rem, MAX_SCALE = 2; // caption above (CAP tall) or beside (CAPW wide)
     const [a, b] = sz;
     // Side by side vs one above the other (squarish vs wide photos), captions above vs beside: take whichever shows the
     // photos largest; captions stay above unless moving them beside gains more than 2%.
@@ -723,7 +725,7 @@
       const text = await res.text().catch(() => "");
       // DataPipe rejects a filename it already has. Our filename is unique per session, so "already exists" means an
       // earlier attempt was stored even though its reply never reached us: count it as saved.
-      if (sv.method === "datapipe" && /already exists/i.test(text)) return;
+      if (sv.method === "datapipe" && /FILE_EXISTS|already exists/i.test(text)) return;
       throw new Error(`Server replied ${res.status}: ${text.slice(0, 200)}`);
     }
   }
