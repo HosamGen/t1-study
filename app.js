@@ -18,7 +18,8 @@
   const preview = !pid;
   const batchKey = idsParam ? "custom" : batchParam ? `S${batchParam}` : ""; // "S1".."S4"
   const setName = `${part}-${batchKey}`; // "U1-S1"
-  const storeKey = `t1study:v1:${part}:${batchKey}:${idsParam || ""}:${pid || "preview"}`;
+  // Progress is kept per Prolific session: a reload continues, a new session (e.g. a fresh preview) starts over.
+  const storeKey = `t1study:v1:${part}:${batchKey}:${idsParam || ""}:${pid || "preview"}:${sessionId}`;
   const app = document.getElementById("app");
 
   let DATA = null; // part json
